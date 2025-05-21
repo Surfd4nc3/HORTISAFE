@@ -1,0 +1,213 @@
+2025-05-20 17:48:54,615 - INFO - sendTrujillo.py:94 - Sistema de Logging configurado.
+2025-05-20 17:48:54,616 - INFO - sendTrujillo.py:149 - ********** INICIO DEL PROCESO DE ENVÍO DE INFORMES **********
+2025-05-20 17:48:56,742 - INFO - sendTrujillo.py:169 - Se encontraron 1 CDAMOSTRAS pendientes para procesar.
+2025-05-20 17:48:56,743 - INFO - sendTrujillo.py:102 - --- Iniciando procesamiento para CDAMOSTRA: 3231808 ---
+2025-05-20 17:48:57,351 - INFO - sendTrujillo.py:114 - Resultados obtenidos para 3231808: 2 filas.
+2025-05-20 17:48:57,822 - INFO - sendTrujillo.py:126 - Encabezado obtenido para 3231808.
+2025-05-20 17:49:49,940 - ERROR - sendTrujillo.py:238 - No se pudo generar el archivo Excel para CDAMOSTRA 3231808. No se enviará correo.
+2025-05-20 17:49:49,944 - INFO - sendTrujillo.py:241 - --- Proceso completado para todos los pendientes ---
+2025-05-20 17:49:50,099 - INFO - sendTrujillo.py:252 - ********** FIN DEL PROCESO DE ENVÍO DE INFORMES **********
+2025-05-20 17:54:04,175 - INFO - sendTrujillo.py:94 - Sistema de Logging configurado.
+2025-05-20 17:54:04,176 - INFO - sendTrujillo.py:149 - ********** INICIO DEL PROCESO DE ENVÍO DE INFORMES **********
+2025-05-20 17:54:06,274 - INFO - sendTrujillo.py:169 - Se encontraron 1 CDAMOSTRAS pendientes para procesar.
+2025-05-20 17:54:06,274 - INFO - sendTrujillo.py:102 - --- Iniciando procesamiento para CDAMOSTRA: 3231808 ---
+2025-05-20 17:54:06,888 - INFO - sendTrujillo.py:114 - Resultados obtenidos para 3231808: 2 filas.
+2025-05-20 17:54:07,344 - INFO - sendTrujillo.py:126 - Encabezado obtenido para 3231808.
+2025-05-20 17:54:31,486 - INFO - generador_excel.py:109 - Directorio para Excel creado: informes_generados
+2025-05-20 17:54:49,100 - INFO - sendTrujillo.py:209 - Excel 'informes_generados\Trujillo_Muestra_3231808.xlsx' generado exitosamente para CDAMOSTRA 3231808.
+2025-05-20 17:55:46,501 - INFO - manejador_correo.py:150 - Archivo 'Trujillo_Muestra_3231808.xlsx' adjuntado al correo.
+2025-05-20 17:55:54,150 - ERROR - manejador_correo.py:181 - Error al enviar el correo: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\HORTISAFE\manejador_correo.py", line 163, in enviar_correo_con_adjunto
+    server = smtplib.SMTP(SMTP_SERVER, SMTP_PORT)
+  File "c:\Users\Usuario\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+                  ~~~~~~~~~~~~^^^^^^^^^^^^
+  File "c:\Users\Usuario\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Usuario\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+                                    self.source_address)
+                                    ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Usuario\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 840, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+               ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Usuario\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 977, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2025-05-20 17:55:59,238 - ERROR - sendTrujillo.py:235 - Fallo al enviar correo para CDAMOSTRA 3231808 con adjunto 'Trujillo_Muestra_3231808.xlsx'.
+2025-05-20 17:55:59,239 - INFO - sendTrujillo.py:241 - --- Proceso completado para todos los pendientes ---
+2025-05-20 17:55:59,384 - INFO - sendTrujillo.py:252 - ********** FIN DEL PROCESO DE ENVÍO DE INFORMES **********
+2025-05-20 18:05:12,413 - INFO - sendTrujillo.py:94 - Sistema de Logging configurado.
+2025-05-20 18:05:12,417 - INFO - sendTrujillo.py:149 - ********** INICIO DEL PROCESO DE ENVÍO DE INFORMES **********
+2025-05-20 18:05:14,572 - INFO - sendTrujillo.py:169 - Se encontraron 1 CDAMOSTRAS pendientes para procesar.
+2025-05-20 18:05:14,573 - INFO - sendTrujillo.py:102 - --- Iniciando procesamiento para CDAMOSTRA: 3231808 ---
+2025-05-20 18:05:15,189 - INFO - sendTrujillo.py:114 - Resultados obtenidos para 3231808: 2 filas.
+2025-05-20 18:05:16,268 - INFO - sendTrujillo.py:126 - Encabezado obtenido para 3231808.
+2025-05-20 18:05:17,587 - INFO - sendTrujillo.py:209 - Excel 'informes_generados\Trujillo_Muestra_3231808.xlsx' generado exitosamente para CDAMOSTRA 3231808.
+2025-05-20 18:05:47,906 - INFO - manejador_correo.py:150 - Archivo 'Trujillo_Muestra_3231808.xlsx' adjuntado al correo.
+2025-05-20 18:06:04,761 - ERROR - manejador_correo.py:178 - Error de autenticación SMTP: (535, b'5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit https://aka.ms/smtp_auth_disabled for more information. [CP4P284CA0018.BRAP284.PROD.OUTLOOK.COM 2025-05-20T23:06:04.791Z 08DD96F07C0B924C]'). Verifica usuario/contraseña.
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\HORTISAFE\manejador_correo.py", line 172, in enviar_correo_con_adjunto
+    server.login(SMTP_USER, SMTP_PASSWORD)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Usuario\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 750, in login
+    raise last_exception
+  File "c:\Users\Usuario\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+                   ~~~~~~~~~^
+        authmethod, getattr(self, method_name),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        initial_response_ok=initial_response_ok)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Usuario\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit https://aka.ms/smtp_auth_disabled for more information. [CP4P284CA0018.BRAP284.PROD.OUTLOOK.COM 2025-05-20T23:06:04.791Z 08DD96F07C0B924C]')
+2025-05-20 18:06:09,633 - ERROR - sendTrujillo.py:235 - Fallo al enviar correo para CDAMOSTRA 3231808 con adjunto 'Trujillo_Muestra_3231808.xlsx'.
+2025-05-20 18:06:11,103 - INFO - sendTrujillo.py:241 - --- Proceso completado para todos los pendientes ---
+2025-05-20 18:06:11,266 - INFO - sendTrujillo.py:252 - ********** FIN DEL PROCESO DE ENVÍO DE INFORMES **********
+2025-05-20 18:08:15,454 - INFO - sendTrujillo.py:94 - Sistema de Logging configurado.
+2025-05-20 18:08:15,456 - INFO - sendTrujillo.py:149 - ********** INICIO DEL PROCESO DE ENVÍO DE INFORMES **********
+2025-05-20 18:08:17,569 - INFO - sendTrujillo.py:169 - Se encontraron 1 CDAMOSTRAS pendientes para procesar.
+2025-05-20 18:08:17,576 - INFO - sendTrujillo.py:102 - --- Iniciando procesamiento para CDAMOSTRA: 3231808 ---
+2025-05-20 18:08:18,233 - INFO - sendTrujillo.py:114 - Resultados obtenidos para 3231808: 2 filas.
+2025-05-20 18:08:18,744 - INFO - sendTrujillo.py:126 - Encabezado obtenido para 3231808.
+2025-05-20 18:08:23,853 - INFO - sendTrujillo.py:209 - Excel 'informes_generados\Trujillo_Muestra_3231808.xlsx' generado exitosamente para CDAMOSTRA 3231808.
+2025-05-20 18:08:23,913 - INFO - manejador_correo.py:150 - Archivo 'Trujillo_Muestra_3231808.xlsx' adjuntado al correo.
+2025-05-20 18:09:08,506 - ERROR - manejador_correo.py:178 - Error de autenticación SMTP: (535, b'5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit https://aka.ms/smtp_auth_disabled for more information. [CPYP284CA0031.BRAP284.PROD.OUTLOOK.COM 2025-05-20T23:09:04.435Z 08DD96D706320880]'). Verifica usuario/contraseña.
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\HORTISAFE\manejador_correo.py", line 172, in enviar_correo_con_adjunto
+    server.login(SMTP_USER, SMTP_PASSWORD)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Usuario\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 750, in login
+    raise last_exception
+  File "c:\Users\Usuario\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+                   ~~~~~~~~~^
+        authmethod, getattr(self, method_name),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        initial_response_ok=initial_response_ok)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Usuario\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit https://aka.ms/smtp_auth_disabled for more information. [CPYP284CA0031.BRAP284.PROD.OUTLOOK.COM 2025-05-20T23:09:04.435Z 08DD96D706320880]')
+2025-05-20 18:09:08,522 - ERROR - sendTrujillo.py:235 - Fallo al enviar correo para CDAMOSTRA 3231808 con adjunto 'Trujillo_Muestra_3231808.xlsx'.
+2025-05-20 18:09:08,523 - INFO - sendTrujillo.py:241 - --- Proceso completado para todos los pendientes ---
+2025-05-20 18:09:08,685 - INFO - sendTrujillo.py:252 - ********** FIN DEL PROCESO DE ENVÍO DE INFORMES **********
+2025-05-20 18:16:07,587 - INFO - sendTrujillo.py:94 - Sistema de Logging configurado.
+2025-05-20 18:16:07,588 - INFO - sendTrujillo.py:149 - ********** INICIO DEL PROCESO DE ENVÍO DE INFORMES **********
+2025-05-20 18:16:09,681 - INFO - sendTrujillo.py:169 - Se encontraron 1 CDAMOSTRAS pendientes para procesar.
+2025-05-20 18:16:09,681 - INFO - sendTrujillo.py:102 - --- Iniciando procesamiento para CDAMOSTRA: 3231808 ---
+2025-05-20 18:16:10,300 - INFO - sendTrujillo.py:114 - Resultados obtenidos para 3231808: 2 filas.
+2025-05-20 18:16:10,755 - INFO - sendTrujillo.py:126 - Encabezado obtenido para 3231808.
+2025-05-20 18:16:11,767 - INFO - sendTrujillo.py:209 - Excel 'informes_generados\Trujillo_Muestra_3231808.xlsx' generado exitosamente para CDAMOSTRA 3231808.
+2025-05-20 18:16:11,866 - INFO - manejador_correo.py:150 - Archivo 'Trujillo_Muestra_3231808.xlsx' adjuntado al correo.
+2025-05-20 18:16:28,424 - ERROR - manejador_correo.py:178 - Error de autenticación SMTP: (535, b'5.7.139 Authentication unsuccessful, the user credentials were incorrect. [CP5P284CA0186.BRAP284.PROD.OUTLOOK.COM 2025-05-20T23:16:28.198Z 08DD977080908BCF]'). Verifica usuario/contraseña.
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\HORTISAFE\manejador_correo.py", line 172, in enviar_correo_con_adjunto
+    server.login(SMTP_USER, SMTP_PASSWORD)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Usuario\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 750, in login
+    raise last_exception
+  File "c:\Users\Usuario\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+                   ~~~~~~~~~^
+        authmethod, getattr(self, method_name),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        initial_response_ok=initial_response_ok)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Usuario\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.139 Authentication unsuccessful, the user credentials were incorrect. [CP5P284CA0186.BRAP284.PROD.OUTLOOK.COM 2025-05-20T23:16:28.198Z 08DD977080908BCF]')
+2025-05-20 18:20:06,501 - INFO - sendTrujillo.py:94 - Sistema de Logging configurado.
+2025-05-20 18:20:06,503 - INFO - sendTrujillo.py:149 - ********** INICIO DEL PROCESO DE ENVÍO DE INFORMES **********
+2025-05-20 18:20:08,555 - INFO - sendTrujillo.py:169 - Se encontraron 1 CDAMOSTRAS pendientes para procesar.
+2025-05-20 18:20:08,556 - INFO - sendTrujillo.py:102 - --- Iniciando procesamiento para CDAMOSTRA: 3231808 ---
+2025-05-20 18:20:09,226 - INFO - sendTrujillo.py:114 - Resultados obtenidos para 3231808: 2 filas.
+2025-05-20 18:20:09,692 - INFO - sendTrujillo.py:126 - Encabezado obtenido para 3231808.
+2025-05-20 18:20:10,415 - INFO - sendTrujillo.py:209 - Excel 'informes_generados\Trujillo_Muestra_3231808.xlsx' generado exitosamente para CDAMOSTRA 3231808.
+2025-05-20 18:20:10,534 - INFO - manejador_correo.py:169 - Archivo 'Trujillo_Muestra_3231808.xlsx' adjuntado al correo.
+2025-05-20 18:20:27,914 - INFO - manejador_correo.py:193 - Intentando login SMTP a smtp.office365.com:587 con usuario noreply.new@ceimic.com
+2025-05-20 18:20:36,255 - ERROR - manejador_correo.py:202 - Error de autenticación SMTP: (535, b'5.7.139 Authentication unsuccessful, the user credentials were incorrect. [CP6P284CA0064.BRAP284.PROD.OUTLOOK.COM 2025-05-20T23:20:37.968Z 08DD97549355C14C]'). Verifica usuario/contraseña y configuración del servidor.
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\HORTISAFE\manejador_correo.py", line 194, in enviar_correo_con_adjunto
+    server.login(SMTP_USER, SMTP_PASSWORD)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Usuario\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 750, in login
+    raise last_exception
+  File "c:\Users\Usuario\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+                   ~~~~~~~~~^
+        authmethod, getattr(self, method_name),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        initial_response_ok=initial_response_ok)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Usuario\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.139 Authentication unsuccessful, the user credentials were incorrect. [CP6P284CA0064.BRAP284.PROD.OUTLOOK.COM 2025-05-20T23:20:37.968Z 08DD97549355C14C]')
+2025-05-20 18:20:40,769 - ERROR - sendTrujillo.py:235 - Fallo al enviar correo para CDAMOSTRA 3231808 con adjunto 'Trujillo_Muestra_3231808.xlsx'.
+2025-05-20 18:20:40,770 - INFO - sendTrujillo.py:241 - --- Proceso completado para todos los pendientes ---
+2025-05-20 18:20:40,922 - INFO - sendTrujillo.py:252 - ********** FIN DEL PROCESO DE ENVÍO DE INFORMES **********
+2025-05-20 18:23:43,005 - INFO - sendTrujillo.py:94 - Sistema de Logging configurado.
+2025-05-20 18:23:43,007 - INFO - sendTrujillo.py:149 - ********** INICIO DEL PROCESO DE ENVÍO DE INFORMES **********
+2025-05-20 18:23:45,052 - INFO - sendTrujillo.py:169 - Se encontraron 1 CDAMOSTRAS pendientes para procesar.
+2025-05-20 18:23:45,053 - INFO - sendTrujillo.py:102 - --- Iniciando procesamiento para CDAMOSTRA: 3231808 ---
+2025-05-20 18:23:45,817 - INFO - sendTrujillo.py:114 - Resultados obtenidos para 3231808: 2 filas.
+2025-05-20 18:23:46,282 - INFO - sendTrujillo.py:126 - Encabezado obtenido para 3231808.
+2025-05-20 18:23:46,945 - INFO - generador_excel.py:112 -  Excel para Trujillo 'informes_generados\Trujillo_Muestra_3231808.xlsx' creado exitosamente para muestra PACK 2 SUPER EXPRESS.
+2025-05-20 18:23:46,946 - INFO - sendTrujillo.py:209 - Excel 'informes_generados\Trujillo_Muestra_3231808.xlsx' generado exitosamente para CDAMOSTRA 3231808.
+2025-05-20 18:23:46,973 - INFO - manejador_correo.py:169 - Archivo 'Trujillo_Muestra_3231808.xlsx' adjuntado al correo.
+2025-05-20 18:23:52,240 - INFO - manejador_correo.py:193 - Intentando login SMTP a smtp.office365.com:587 con usuario noreply.new@ceimic.com
+2025-05-20 18:23:59,796 - ERROR - manejador_correo.py:202 - Error de autenticación SMTP: (535, b'5.7.139 Authentication unsuccessful, the user credentials were incorrect. [CP5P284CA0142.BRAP284.PROD.OUTLOOK.COM 2025-05-20T23:24:01.691Z 08DD979E5564C2A4]'). Verifica usuario/contraseña y configuración del servidor.
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\HORTISAFE\manejador_correo.py", line 194, in enviar_correo_con_adjunto
+    server.login(SMTP_USER, SMTP_PASSWORD)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Usuario\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 750, in login
+    raise last_exception
+  File "c:\Users\Usuario\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+                   ~~~~~~~~~^
+        authmethod, getattr(self, method_name),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        initial_response_ok=initial_response_ok)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Usuario\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.139 Authentication unsuccessful, the user credentials were incorrect. [CP5P284CA0142.BRAP284.PROD.OUTLOOK.COM 2025-05-20T23:24:01.691Z 08DD979E5564C2A4]')
+2025-05-20 18:24:02,470 - ERROR - sendTrujillo.py:235 - Fallo al enviar correo para CDAMOSTRA 3231808 con adjunto 'Trujillo_Muestra_3231808.xlsx'.
+2025-05-20 18:24:02,471 - INFO - sendTrujillo.py:241 - --- Proceso completado para todos los pendientes ---
+2025-05-20 18:24:02,623 - INFO - sendTrujillo.py:252 - ********** FIN DEL PROCESO DE ENVÍO DE INFORMES **********
+2025-05-20 20:59:24,403 - INFO - sendTrujillo.py:95 - Sistema de Logging configurado.
+2025-05-20 20:59:24,404 - INFO - sendTrujillo.py:150 - ********** INICIO DEL PROCESO DE ENVÍO DE INFORMES **********
+2025-05-20 20:59:26,671 - INFO - sendTrujillo.py:170 - Se encontraron 1 CDAMOSTRAS pendientes para procesar.
+2025-05-20 20:59:26,671 - INFO - sendTrujillo.py:103 - --- Iniciando procesamiento para CDAMOSTRA: 3231808 ---
+2025-05-20 20:59:27,489 - INFO - sendTrujillo.py:115 - Resultados obtenidos para 3231808: 2 filas.
+2025-05-20 20:59:28,058 - INFO - sendTrujillo.py:127 - Encabezado obtenido para 3231808.
+2025-05-20 20:59:29,226 - INFO - generador_excel.py:113 -  Excel para Trujillo 'informes_generados\Trujillo_Muestra_3231808.xlsx' creado exitosamente para muestra PACK 2 SUPER EXPRESS.
+2025-05-20 20:59:29,228 - INFO - sendTrujillo.py:210 - Excel 'informes_generados\Trujillo_Muestra_3231808.xlsx' generado exitosamente para CDAMOSTRA 3231808.
+2025-05-20 20:59:29,256 - INFO - manejador_correo.py:170 - Archivo 'Trujillo_Muestra_3231808.xlsx' adjuntado al correo.
+2025-05-20 20:59:47,364 - INFO - manejador_correo.py:194 - Intentando login SMTP a smtp.office365.com:587 con usuario resultados@ceimic.com
+2025-05-20 20:59:57,362 - ERROR - manejador_correo.py:203 - Error de autenticación SMTP: (535, b'5.7.139 Authentication unsuccessful, the user credentials were incorrect. [CP5P284CA0266.BRAP284.PROD.OUTLOOK.COM 2025-05-21T01:59:58.683Z 08DD97724B700F22]'). Verifica usuario/contraseña y configuración del servidor.
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\HORTISAFE\manejador_correo.py", line 195, in enviar_correo_con_adjunto
+    server.login(SMTP_USER, SMTP_PASSWORD)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Usuario\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 750, in login
+    raise last_exception
+  File "c:\Users\Usuario\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+                   ~~~~~~~~~^
+        authmethod, getattr(self, method_name),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        initial_response_ok=initial_response_ok)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Usuario\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.139 Authentication unsuccessful, the user credentials were incorrect. [CP5P284CA0266.BRAP284.PROD.OUTLOOK.COM 2025-05-21T01:59:58.683Z 08DD97724B700F22]')
+2025-05-20 21:00:02,949 - ERROR - sendTrujillo.py:236 - Fallo al enviar correo para CDAMOSTRA 3231808 con adjunto 'Trujillo_Muestra_3231808.xlsx'.
+2025-05-20 21:00:02,949 - INFO - sendTrujillo.py:242 - --- Proceso completado para todos los pendientes ---
+2025-05-20 21:00:03,125 - INFO - sendTrujillo.py:253 - ********** FIN DEL PROCESO DE ENVÍO DE INFORMES **********

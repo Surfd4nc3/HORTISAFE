@@ -1,0 +1,131 @@
+2025-05-20 17:49:49,940 - ERROR - sendTrujillo.py:238 - No se pudo generar el archivo Excel para CDAMOSTRA 3231808. No se enviará correo.
+2025-05-20 17:55:54,150 - ERROR - manejador_correo.py:181 - Error al enviar el correo: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\HORTISAFE\manejador_correo.py", line 163, in enviar_correo_con_adjunto
+    server = smtplib.SMTP(SMTP_SERVER, SMTP_PORT)
+  File "c:\Users\Usuario\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+                  ~~~~~~~~~~~~^^^^^^^^^^^^
+  File "c:\Users\Usuario\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Usuario\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+                                    self.source_address)
+                                    ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Usuario\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 840, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+               ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Usuario\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 977, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2025-05-20 17:55:59,238 - ERROR - sendTrujillo.py:235 - Fallo al enviar correo para CDAMOSTRA 3231808 con adjunto 'Trujillo_Muestra_3231808.xlsx'.
+2025-05-20 18:06:04,761 - ERROR - manejador_correo.py:178 - Error de autenticación SMTP: (535, b'5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit https://aka.ms/smtp_auth_disabled for more information. [CP4P284CA0018.BRAP284.PROD.OUTLOOK.COM 2025-05-20T23:06:04.791Z 08DD96F07C0B924C]'). Verifica usuario/contraseña.
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\HORTISAFE\manejador_correo.py", line 172, in enviar_correo_con_adjunto
+    server.login(SMTP_USER, SMTP_PASSWORD)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Usuario\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 750, in login
+    raise last_exception
+  File "c:\Users\Usuario\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+                   ~~~~~~~~~^
+        authmethod, getattr(self, method_name),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        initial_response_ok=initial_response_ok)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Usuario\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit https://aka.ms/smtp_auth_disabled for more information. [CP4P284CA0018.BRAP284.PROD.OUTLOOK.COM 2025-05-20T23:06:04.791Z 08DD96F07C0B924C]')
+2025-05-20 18:06:09,633 - ERROR - sendTrujillo.py:235 - Fallo al enviar correo para CDAMOSTRA 3231808 con adjunto 'Trujillo_Muestra_3231808.xlsx'.
+2025-05-20 18:09:08,506 - ERROR - manejador_correo.py:178 - Error de autenticación SMTP: (535, b'5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit https://aka.ms/smtp_auth_disabled for more information. [CPYP284CA0031.BRAP284.PROD.OUTLOOK.COM 2025-05-20T23:09:04.435Z 08DD96D706320880]'). Verifica usuario/contraseña.
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\HORTISAFE\manejador_correo.py", line 172, in enviar_correo_con_adjunto
+    server.login(SMTP_USER, SMTP_PASSWORD)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Usuario\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 750, in login
+    raise last_exception
+  File "c:\Users\Usuario\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+                   ~~~~~~~~~^
+        authmethod, getattr(self, method_name),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        initial_response_ok=initial_response_ok)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Usuario\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit https://aka.ms/smtp_auth_disabled for more information. [CPYP284CA0031.BRAP284.PROD.OUTLOOK.COM 2025-05-20T23:09:04.435Z 08DD96D706320880]')
+2025-05-20 18:09:08,522 - ERROR - sendTrujillo.py:235 - Fallo al enviar correo para CDAMOSTRA 3231808 con adjunto 'Trujillo_Muestra_3231808.xlsx'.
+2025-05-20 18:16:28,424 - ERROR - manejador_correo.py:178 - Error de autenticación SMTP: (535, b'5.7.139 Authentication unsuccessful, the user credentials were incorrect. [CP5P284CA0186.BRAP284.PROD.OUTLOOK.COM 2025-05-20T23:16:28.198Z 08DD977080908BCF]'). Verifica usuario/contraseña.
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\HORTISAFE\manejador_correo.py", line 172, in enviar_correo_con_adjunto
+    server.login(SMTP_USER, SMTP_PASSWORD)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Usuario\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 750, in login
+    raise last_exception
+  File "c:\Users\Usuario\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+                   ~~~~~~~~~^
+        authmethod, getattr(self, method_name),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        initial_response_ok=initial_response_ok)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Usuario\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.139 Authentication unsuccessful, the user credentials were incorrect. [CP5P284CA0186.BRAP284.PROD.OUTLOOK.COM 2025-05-20T23:16:28.198Z 08DD977080908BCF]')
+2025-05-20 18:20:36,255 - ERROR - manejador_correo.py:202 - Error de autenticación SMTP: (535, b'5.7.139 Authentication unsuccessful, the user credentials were incorrect. [CP6P284CA0064.BRAP284.PROD.OUTLOOK.COM 2025-05-20T23:20:37.968Z 08DD97549355C14C]'). Verifica usuario/contraseña y configuración del servidor.
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\HORTISAFE\manejador_correo.py", line 194, in enviar_correo_con_adjunto
+    server.login(SMTP_USER, SMTP_PASSWORD)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Usuario\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 750, in login
+    raise last_exception
+  File "c:\Users\Usuario\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+                   ~~~~~~~~~^
+        authmethod, getattr(self, method_name),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        initial_response_ok=initial_response_ok)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Usuario\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.139 Authentication unsuccessful, the user credentials were incorrect. [CP6P284CA0064.BRAP284.PROD.OUTLOOK.COM 2025-05-20T23:20:37.968Z 08DD97549355C14C]')
+2025-05-20 18:20:40,769 - ERROR - sendTrujillo.py:235 - Fallo al enviar correo para CDAMOSTRA 3231808 con adjunto 'Trujillo_Muestra_3231808.xlsx'.
+2025-05-20 18:23:59,796 - ERROR - manejador_correo.py:202 - Error de autenticación SMTP: (535, b'5.7.139 Authentication unsuccessful, the user credentials were incorrect. [CP5P284CA0142.BRAP284.PROD.OUTLOOK.COM 2025-05-20T23:24:01.691Z 08DD979E5564C2A4]'). Verifica usuario/contraseña y configuración del servidor.
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\HORTISAFE\manejador_correo.py", line 194, in enviar_correo_con_adjunto
+    server.login(SMTP_USER, SMTP_PASSWORD)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Usuario\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 750, in login
+    raise last_exception
+  File "c:\Users\Usuario\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+                   ~~~~~~~~~^
+        authmethod, getattr(self, method_name),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        initial_response_ok=initial_response_ok)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Usuario\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.139 Authentication unsuccessful, the user credentials were incorrect. [CP5P284CA0142.BRAP284.PROD.OUTLOOK.COM 2025-05-20T23:24:01.691Z 08DD979E5564C2A4]')
+2025-05-20 18:24:02,470 - ERROR - sendTrujillo.py:235 - Fallo al enviar correo para CDAMOSTRA 3231808 con adjunto 'Trujillo_Muestra_3231808.xlsx'.
+2025-05-20 20:59:57,362 - ERROR - manejador_correo.py:203 - Error de autenticación SMTP: (535, b'5.7.139 Authentication unsuccessful, the user credentials were incorrect. [CP5P284CA0266.BRAP284.PROD.OUTLOOK.COM 2025-05-21T01:59:58.683Z 08DD97724B700F22]'). Verifica usuario/contraseña y configuración del servidor.
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\HORTISAFE\manejador_correo.py", line 195, in enviar_correo_con_adjunto
+    server.login(SMTP_USER, SMTP_PASSWORD)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Usuario\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 750, in login
+    raise last_exception
+  File "c:\Users\Usuario\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+                   ~~~~~~~~~^
+        authmethod, getattr(self, method_name),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        initial_response_ok=initial_response_ok)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Usuario\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.139 Authentication unsuccessful, the user credentials were incorrect. [CP5P284CA0266.BRAP284.PROD.OUTLOOK.COM 2025-05-21T01:59:58.683Z 08DD97724B700F22]')
+2025-05-20 21:00:02,949 - ERROR - sendTrujillo.py:236 - Fallo al enviar correo para CDAMOSTRA 3231808 con adjunto 'Trujillo_Muestra_3231808.xlsx'.
