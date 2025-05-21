@@ -665,3 +665,48 @@ TypeError: Pynliner.__init__() got an unexpected keyword argument 'logger_instan
 2025-05-21 12:12:27,257 - INFO - sendTrujillo.py:237 - Correo para CDAMOSTRA 3231808 enviado con adjunto 'Olmos_Muestra_3231808.xlsx'.
 2025-05-21 12:12:27,257 - INFO - sendTrujillo.py:246 - --- Proceso completado para todos los pendientes ---
 2025-05-21 12:12:27,422 - INFO - sendTrujillo.py:257 - ********** FIN DEL PROCESO DE ENVÍO DE INFORMES **********
+2025-05-21 14:00:58,349 - INFO - sendTrujillo.py:98 - Sistema de Logging configurado.
+2025-05-21 14:00:58,351 - INFO - sendTrujillo.py:153 - ********** INICIO DEL PROCESO DE ENVÍO DE INFORMES **********
+2025-05-21 14:01:36,837 - INFO - sendTrujillo.py:98 - Sistema de Logging configurado.
+2025-05-21 14:01:36,838 - INFO - sendTrujillo.py:153 - ********** INICIO DEL PROCESO DE ENVÍO DE INFORMES **********
+2025-05-21 14:02:02,503 - INFO - sendTrujillo.py:98 - Sistema de Logging configurado.
+2025-05-21 14:02:02,504 - INFO - sendTrujillo.py:153 - ********** INICIO DEL PROCESO DE ENVÍO DE INFORMES **********
+2025-05-21 14:03:00,824 - INFO - sendTrujillo.py:98 - Sistema de Logging configurado.
+2025-05-21 14:03:00,826 - INFO - sendTrujillo.py:153 - ********** INICIO DEL PROCESO DE ENVÍO DE INFORMES **********
+2025-05-21 14:05:27,794 - INFO - sendTrujillo.py:98 - Sistema de Logging configurado.
+2025-05-21 14:05:39,105 - INFO - sendTrujillo.py:153 - ********** INICIO DEL PROCESO DE ENVÍO DE INFORMES **********
+2025-05-21 14:21:38,706 - INFO - sendTrujillo.py:98 - Sistema de Logging configurado.
+2025-05-21 14:21:38,713 - INFO - sendTrujillo.py:153 - ********** INICIO DEL PROCESO DE ENVÍO DE INFORMES **********
+2025-05-21 14:21:43,178 - INFO - sendTrujillo.py:187 - Se encontraron 1 CDAMOSTRAS pendientes para procesar.
+2025-05-21 14:21:43,179 - INFO - sendTrujillo.py:106 - --- Iniciando procesamiento para CDAMOSTRA: 3231808 ---
+2025-05-21 14:21:43,987 - INFO - sendTrujillo.py:118 - Resultados obtenidos para 3231808: 2 filas.
+2025-05-21 14:21:44,558 - INFO - sendTrujillo.py:130 - Encabezado obtenido para 3231808.
+2025-05-21 14:21:47,484 - INFO - sendTrujillo.py:230 - Excel 'informes_generados\Olmos_Muestra_3231808.xlsx' generado exitosamente para CDAMOSTRA 3231808.
+2025-05-21 14:21:47,518 - INFO - manejador_correo.py:251 - Archivo 'Olmos_Muestra_3231808.xlsx' adjuntado al correo.
+2025-05-21 14:21:47,519 - INFO - manejador_correo.py:266 - Intentando conexión SMTP a smtp.office365.com:587
+2025-05-21 14:21:50,229 - INFO - manejador_correo.py:279 - Intentando login SMTP con usuario noreply.new@ceimic.com
+2025-05-21 14:21:50,736 - INFO - manejador_correo.py:281 - Login SMTP exitoso.
+2025-05-21 14:21:51,846 - INFO - manejador_correo.py:285 - Correo enviado exitosamente con smtplib a: Eder.ortega@ceimic.com, joel.zarate@ceimic.com
+2025-05-21 14:22:06,896 - INFO - sendTrujillo.py:275 - Correo para CDAMOSTRA 3231808 enviado con adjunto 'Olmos_Muestra_3231808.xlsx'.
+2025-05-21 14:22:06,898 - INFO - sendTrujillo.py:284 - --- Proceso completado para todos los pendientes ---
+2025-05-21 14:22:07,048 - INFO - sendTrujillo.py:295 - ********** FIN DEL PROCESO DE ENVÍO DE INFORMES **********
+2025-05-21 14:29:03,879 - INFO - sendTrujillo.py:98 - Sistema de Logging configurado.
+2025-05-21 14:29:03,880 - INFO - sendTrujillo.py:153 - ********** INICIO DEL PROCESO DE ENVÍO DE INFORMES **********
+2025-05-21 14:34:57,222 - INFO - sendTrujillo.py:98 - Sistema de Logging configurado.
+2025-05-21 14:34:57,225 - INFO - sendTrujillo.py:153 - ********** INICIO DEL PROCESO DE ENVÍO DE INFORMES **********
+2025-05-21 14:36:11,707 - INFO - sendTrujillo.py:98 - Sistema de Logging configurado.
+2025-05-21 14:36:11,708 - INFO - sendTrujillo.py:153 - ********** INICIO DEL PROCESO DE ENVÍO DE INFORMES **********
+2025-05-21 14:37:02,598 - INFO - sendTrujillo.py:98 - Sistema de Logging configurado.
+2025-05-21 14:37:02,600 - INFO - sendTrujillo.py:153 - ********** INICIO DEL PROCESO DE ENVÍO DE INFORMES **********
+2025-05-21 14:38:55,615 - INFO - sendTrujillo.py:98 - Sistema de Logging configurado.
+2025-05-21 14:38:55,616 - INFO - sendTrujillo.py:153 - ********** INICIO DEL PROCESO DE ENVÍO DE INFORMES **********
+2025-05-21 14:40:24,416 - INFO - sendTrujillo.py:98 - Sistema de Logging configurado.
+2025-05-21 14:40:24,418 - INFO - sendTrujillo.py:153 - ********** INICIO DEL PROCESO DE ENVÍO DE INFORMES **********
+2025-05-21 14:41:06,054 - INFO - sendTrujillo.py:98 - Sistema de Logging configurado.
+2025-05-21 14:41:06,055 - INFO - sendTrujillo.py:153 - ********** INICIO DEL PROCESO DE ENVÍO DE INFORMES **********
+2025-05-21 14:41:25,275 - INFO - sendTrujillo.py:98 - Sistema de Logging configurado.
+2025-05-21 14:41:25,277 - INFO - sendTrujillo.py:153 - ********** INICIO DEL PROCESO DE ENVÍO DE INFORMES **********
+2025-05-21 14:42:29,989 - INFO - sendTrujillo.py:98 - Sistema de Logging configurado.
+2025-05-21 14:42:29,992 - INFO - sendTrujillo.py:153 - ********** INICIO DEL PROCESO DE ENVÍO DE INFORMES **********
+2025-05-21 14:42:47,928 - INFO - sendTrujillo.py:297 - No se encontraron CDAMOSTRAS pendientes según los criterios definidos.
+2025-05-21 14:42:47,930 - INFO - sendTrujillo.py:305 - ********** FIN DEL PROCESO DE ENVÍO DE INFORMES **********

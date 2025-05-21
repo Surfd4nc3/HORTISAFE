@@ -4,7 +4,7 @@ import os
 import logging
 from conexion import ManejadorConexionSQL
 # Asumo que este archivo existe
-from consultas import QUERY_RESULTADOS, QUERY_ENCABEZADOS
+from consultas import QUERY_RESULTADOS, QUERY_ENCABEZADOS, QUERY_ENVIADOS_BDCLINK,QUERY_INSERT_ENVIADOS_BDCLINK
 from Pendientes import Pendientes
 from generador_excel import crear_excel_trujillo, crear_excel_olmos
 #from manejador_correo import enviar_correo_con_adjunto, crear_cuerpo_html_correo
@@ -160,12 +160,43 @@ if __name__ == "__main__":
     # Flag para decidir qué Excel generar (1 para Trujillo, otro valor para Olmos)
     tipo_informe_flag = 2  # 1: Trujillo, Otro: Olmos (ej. 2)
 
+    #CONEXION PARA BDCLINK CREAR UNA CONEXION NUEVA
+    manejador_bdclink = ManejadorConexionSQL("BDClink_conn")
+    conexionactiva_BDCLINK = manejador_bdclink.conectar()
+    resultadosEnviados_raw = None # Nombre para diferenciarlo del procesado
+
+    if conexionactiva_BDCLINK:
+        # Ahora sabemos que esto devuelve una lista de diccionarios: [{'CDAMOSTRA': 3231808}]
+        resultadosEnviados_raw = manejador_bdclink.ejecutar_consulta(QUERY_ENVIADOS_BDCLINK)
+        manejador_bdclink.cerrar()
+
+    # Extrae el valor de 'CDAMOSTRA' de cada diccionario y crea un conjunto con ellos.
+    if resultadosEnviados_raw is not None:
+        resultadosEnviados_set = {fila['CDAMOSTRA'] for fila in resultadosEnviados_raw}
+    else:
+        resultadosEnviados_set = set() # Si no hay resultados o es None, un conjunto vacío
+
+   
+
+
     manejador_mylims = ManejadorConexionSQL("myLIMS_Novo_conn")
     conexion_activa = manejador_mylims.conectar()
 
-    if conexion_activa:
-        gestor_pendientes = Pendientes(manejador_mylims)
-        cdamostras_pendientes = gestor_pendientes.obtener_pendientes()
+    if conexion_activa:       
+        gestor_pendientes = Pendientes(manejador_mylims) # <--- Aquí se le pasa
+            # Esta variable ahora contendrá un conjunto de enteros: {1, 2, 3, 4}
+        cdamostras_pendientes_set = gestor_pendientes.obtener_pendientes()
+        manejador_mylims.cerrar()
+
+            # Compara: deja en cdamostras_pendientes_final solo los que están en
+            # cdamostras_pendientes_set pero NO en resultadosEnviados_set
+            # Si cdamostras_pendientes_set = {1,2,3,4} y resultadosEnviados_set = {3,4},
+            # entonces cdamostras_pendientes_final será {1,2}
+        cdamostras_pendientes_final = cdamostras_pendientes_set - resultadosEnviados_set
+
+            # Si necesitas una lista en lugar de un conjunto, conviértelo:
+        cdamostras_pendientes = list(cdamostras_pendientes_final)
+        
 
         if cdamostras_pendientes:
             logging.info(
@@ -233,6 +264,23 @@ if __name__ == "__main__":
                         destinatarios_cc= DESTINATARIO_CC_POR_DEFECTO,
                         destinatarios_bcc=DESTINATARIO_BCC_POR_DEFECTO
                     )
+               
+                    manejador_bdclink = ManejadorConexionSQL("BDClink_conn")
+                    conexionactiva_BDCLINK = manejador_bdclink.conectar()
+                    if conexionactiva_BDCLINK: # Verifica si la conexión fue exitosa
+                        try:                     
+                            manejador_bdclink.ejecutar_consulta( # Ejecuta la consulta de inserción
+                                QUERY_INSERT_ENVIADOS_BDCLINK, # La consulta SQL para insertar
+                                (datos_un_pendiente['cdamostra'], cadena_Unidad) # Los parámetros para la consulta
+                            )
+                      
+                            logging.info(f"✅ Registro de envío exitoso para CDAMOSTRA '{datos_un_pendiente['cdamostra']}' en '{cadena_Unidad}' en BDClink.")
+                        except Exception as e:
+                            logging.error(f"❌ Error al insertar registro de envío para CDAMOSTRA '{datos_un_pendiente['cdamostra']}' en BDClink: {e}", exc_info=True)
+                        finally:
+                            manejador_bdclink.cerrar() # Asegura que la conexión a BDClink se cierre siempre
+                    else:
+                        logging.error(f"❌ No se pudo establecer conexión a BDClink para registrar el envío de CDAMOSTRA '{datos_un_pendiente['cdamostra']}'.")
                     if envio_exitoso:
                         logging.info(
                             f"Correo para CDAMOSTRA {datos_un_pendiente['cdamostra']} enviado con adjunto '{nombre_excel_base}'.")
