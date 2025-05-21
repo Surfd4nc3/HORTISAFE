@@ -12,7 +12,7 @@ REMITENTE_EMAIL = SMTP_USER
 
 DESTINATARIO_TO_POR_DEFECTO = "Eder.ortega@ceimic.com;joel.zarate@ceimic.com"
 DESTINATARIO_CC_POR_DEFECTO = "herrick.davis@ceimic.com"
-DESTINATARIO_BCC_POR_DEFECTO = "herrick.davis@ceimic.com"
+DESTINATARIO_BCC_POR_DEFECTO = "herrick.davis@ceimic.com;rita.noriega@ceimic.com"
 
 ASUNTO_PLANTILLA = "Resultado de ensayo {cdamostra}"
 

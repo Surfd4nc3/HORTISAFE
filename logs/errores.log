@@ -174,3 +174,208 @@ smtplib.SMTPAuthenticationError: (535, b'5.7.139 Authentication unsuccessful, th
 2025-05-21 08:32:19,835 - ERROR - errorhandler.py:105 - Selector: Cannot end with combinator: <br>        
 2025-05-21 08:32:19,836 - ERROR - errorhandler.py:105 - SelectorList: Invalid Selector: <br>        
 2025-05-21 08:32:19,836 - ERROR - errorhandler.py:105 - CSSStyleRule: No style declaration or "}" found: '<br>        '
+2025-05-21 09:13:00,118 - ERROR - errorhandler.py:105 - Selector: Unexpected CHAR. [1:1: <]
+2025-05-21 09:13:00,122 - ERROR - errorhandler.py:105 - SelectorList: Invalid Selector: <br>        body 
+2025-05-21 09:13:00,124 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto "<br>            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';". [1:19: <]
+2025-05-21 09:13:00,125 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>            line-height: 1.6;'. [1:190: <]
+2025-05-21 09:13:00,125 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>            color: #333333;'. [1:223: <]
+2025-05-21 09:13:00,126 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>            background-color: #f4f5f7;'. [1:254: <]
+2025-05-21 09:13:00,127 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>            margin: 0;'. [1:350: <]
+2025-05-21 09:13:00,129 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>            padding: 20px;'. [1:376: <]
+2025-05-21 09:13:00,130 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>            -webkit-font-smoothing: antialiased;'. [1:406: <]
+2025-05-21 09:13:00,132 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>            -moz-osx-font-smoothing: grayscale;'. [1:458: <]
+2025-05-21 09:13:00,132 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>        '. [1:509: <]
+2025-05-21 09:13:00,135 - ERROR - errorhandler.py:105 - Selector: Unexpected CHAR. [1:522: <]
+2025-05-21 09:13:00,135 - ERROR - errorhandler.py:105 - SelectorList: Invalid Selector: <br>        .email-container 
+2025-05-21 09:13:00,136 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>            max-width: 680px;'. [1:552: <]
+2025-05-21 09:13:00,137 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>            margin: 0 auto;'. [1:585: <]
+2025-05-21 09:13:00,139 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>            background-color: #ffffff;'. [1:616: <]
+2025-05-21 09:13:00,140 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>            padding: 35px;'. [1:658: <]
+2025-05-21 09:13:00,141 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>            border-radius: 12px;'. [1:688: <]
+2025-05-21 09:13:00,143 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>            box-shadow: 0 6px 25px rgba(0,0,0,0.08);'. [1:724: <]
+2025-05-21 09:13:00,145 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>            border: 1px solid #dee2e6;'. [1:780: <]
+2025-05-21 09:13:00,147 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>        '. [1:822: <]
+2025-05-21 09:13:00,149 - ERROR - errorhandler.py:105 - Selector: Unexpected CHAR. [1:835: <]
+2025-05-21 09:13:00,151 - ERROR - errorhandler.py:105 - SelectorList: Invalid Selector: <br>        .email-header 
+2025-05-21 09:13:00,154 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>            background-color: #004a99;'. [1:862: <]
+2025-05-21 09:13:00,157 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>            color: #ffffff;'. [1:962: <]
+2025-05-21 09:13:00,158 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>            padding: 25px;'. [1:993: <]
+2025-05-21 09:13:00,160 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>            border-radius: 8px 8px 0 0;'. [1:1023: <]
+2025-05-21 09:13:00,162 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>            text-align: center;'. [1:1066: <]
+2025-05-21 09:13:00,164 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>        '. [1:1101: <]
+2025-05-21 09:13:00,167 - ERROR - errorhandler.py:105 - Selector: Unexpected CHAR. [1:1114: <]
+2025-05-21 09:13:00,168 - ERROR - errorhandler.py:105 - SelectorList: Invalid Selector: <br>        .email-header h2 
+2025-05-21 09:13:00,170 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>            margin: 0;'. [1:1144: <]
+2025-05-21 09:13:00,173 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>            font-size: 26px;'. [1:1170: <]
+2025-05-21 09:13:00,175 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>            font-weight: 600;'. [1:1202: <]
+2025-05-21 09:13:00,178 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>        '. [1:1235: <]
+2025-05-21 09:13:00,181 - ERROR - errorhandler.py:105 - Selector: Unexpected CHAR. [1:1248: <]
+2025-05-21 09:13:00,182 - ERROR - errorhandler.py:105 - SelectorList: Invalid Selector: <br>        .email-content 
+2025-05-21 09:13:00,183 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>            padding: 20px 0;'. [1:1276: <]
+2025-05-21 09:13:00,185 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>        '. [1:1369: <]
+2025-05-21 09:13:00,192 - ERROR - errorhandler.py:105 - Selector: Unexpected CHAR. [1:1382: <]
+2025-05-21 09:13:00,195 - ERROR - errorhandler.py:105 - SelectorList: Invalid Selector: <br>        .email-content h3 
+2025-05-21 09:13:00,198 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>            font-size: 18px;'. [1:1413: <]
+2025-05-21 09:13:00,200 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>            color: #004a99;'. [1:1445: <]
+2025-05-21 09:13:00,202 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>            margin-top: 30px;'. [1:1476: <]
+2025-05-21 09:13:00,204 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>            margin-bottom: 15px;'. [1:1509: <]
+2025-05-21 09:13:00,207 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>            border-bottom: 2px solid #e9ecef;'. [1:1545: <]
+2025-05-21 09:13:00,209 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>            padding-bottom: 8px;'. [1:1594: <]
+2025-05-21 09:13:00,211 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>            font-weight: 600;'. [1:1630: <]
+2025-05-21 09:13:00,213 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>        '. [1:1663: <]
+2025-05-21 09:13:00,229 - ERROR - errorhandler.py:105 - Selector: Unexpected CHAR. [1:1676: <]
+2025-05-21 09:13:00,234 - ERROR - errorhandler.py:105 - SelectorList: Invalid Selector: <br>        .email-content p 
+2025-05-21 09:13:00,245 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>            margin-bottom: 15px;'. [1:1706: <]
+2025-05-21 09:13:00,250 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>            font-size: 15px;'. [1:1742: <]
+2025-05-21 09:13:00,252 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>            color: #555555;'. [1:1774: <]
+2025-05-21 09:13:00,255 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>        '. [1:1805: <]
+2025-05-21 09:13:00,266 - ERROR - errorhandler.py:105 - Selector: Unexpected CHAR. [1:1818: <]
+2025-05-21 09:13:00,268 - ERROR - errorhandler.py:105 - SelectorList: Invalid Selector: <br>        .details-list 
+2025-05-21 09:13:00,270 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>            list-style-type: none;'. [1:1845: <]
+2025-05-21 09:13:00,273 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>            padding-left: 0;'. [1:1883: <]
+2025-05-21 09:13:00,276 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>            font-size: 15px;'. [1:1915: <]
+2025-05-21 09:13:00,279 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>            margin-bottom: 20px;'. [1:1947: <]
+2025-05-21 09:13:00,287 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>        '. [1:1983: <]
+2025-05-21 09:13:00,293 - ERROR - errorhandler.py:105 - Selector: Unexpected CHAR. [1:1996: <]
+2025-05-21 09:13:00,298 - ERROR - errorhandler.py:105 - SelectorList: Invalid Selector: <br>        .details-list li 
+2025-05-21 09:13:00,300 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>            margin-bottom: 10px;'. [1:2026: <]
+2025-05-21 09:13:00,301 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>            padding: 8px 12px;'. [1:2062: <]
+2025-05-21 09:13:00,302 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>            background-color: #f8f9fa;'. [1:2096: <]
+2025-05-21 09:13:00,304 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>            border-left: 3px solid #004a99;'. [1:2138: <]
+2025-05-21 09:13:00,305 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>            border-radius: 4px;'. [1:2185: <]
+2025-05-21 09:13:00,311 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>        '. [1:2220: <]
+2025-05-21 09:13:00,316 - ERROR - errorhandler.py:105 - Selector: Unexpected CHAR. [1:2233: <]
+2025-05-21 09:13:00,318 - ERROR - errorhandler.py:105 - SelectorList: Invalid Selector: <br>        .details-list li strong 
+2025-05-21 09:13:00,319 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>            color: #333333;'. [1:2270: <]
+2025-05-21 09:13:00,320 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>            font-weight: 600;'. [1:2301: <]
+2025-05-21 09:13:00,321 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>            margin-right: 8px;'. [1:2334: <]
+2025-05-21 09:13:00,321 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>        '. [1:2368: <]
+2025-05-21 09:13:00,323 - ERROR - errorhandler.py:105 - Selector: Unexpected CHAR. [1:2381: <]
+2025-05-21 09:13:00,325 - ERROR - errorhandler.py:105 - SelectorList: Invalid Selector: <br>        .email-footer 
+2025-05-21 09:13:00,326 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>            margin-top: 30px;'. [1:2408: <]
+2025-05-21 09:13:00,327 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>            padding-top: 20px;'. [1:2441: <]
+2025-05-21 09:13:00,327 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>            font-size: 13px;'. [1:2475: <]
+2025-05-21 09:13:00,328 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>            color: #777777;'. [1:2507: <]
+2025-05-21 09:13:00,329 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>            text-align: center;'. [1:2538: <]
+2025-05-21 09:13:00,330 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>            border-top: 1px solid #e9ecef;'. [1:2573: <]
+2025-05-21 09:13:00,330 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>        '. [1:2619: <]
+2025-05-21 09:13:00,332 - ERROR - errorhandler.py:105 - Selector: Unexpected CHAR. [1:2632: <]
+2025-05-21 09:13:00,334 - ERROR - errorhandler.py:105 - SelectorList: Invalid Selector: <br>        .email-footer p 
+2025-05-21 09:13:00,335 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>            margin: 5px 0;'. [1:2661: <]
+2025-05-21 09:13:00,337 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>        '. [1:2691: <]
+2025-05-21 09:13:00,340 - ERROR - errorhandler.py:105 - Selector: Unexpected CHAR. [1:2704: <]
+2025-05-21 09:13:00,344 - ERROR - errorhandler.py:105 - SelectorList: Invalid Selector: <br>        .highlight-text 
+2025-05-21 09:13:00,346 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>            /* color: #ffc107;  Puedes usar un color de acento si lo deseas */<br>        '. [1:2787: <]
+2025-05-21 09:13:00,348 - ERROR - errorhandler.py:105 - Selector: Unexpected CHAR. [1:2882: <]
+2025-05-21 09:13:00,349 - ERROR - errorhandler.py:105 - SelectorList: Invalid Selector: <br>        a 
+2025-05-21 09:13:00,350 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>            color: #0056b3;'. [1:2946: <]
+2025-05-21 09:13:00,351 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>            text-decoration: none;'. [1:2977: <]
+2025-05-21 09:13:00,351 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>        '. [1:3015: <]
+2025-05-21 09:13:00,352 - ERROR - errorhandler.py:105 - Selector: Unexpected CHAR. [1:3028: <]
+2025-05-21 09:13:00,353 - ERROR - errorhandler.py:105 - SelectorList: Invalid Selector: <br>        a:hover 
+2025-05-21 09:13:00,354 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>            text-decoration: underline;'. [1:3049: <]
+2025-05-21 09:13:00,355 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>        '. [1:3092: <]
+2025-05-21 09:13:00,356 - ERROR - errorhandler.py:105 - CSSStyleRule: No start { of style declaration found: '<br>    ' [1:3113: ]
+2025-05-21 09:13:00,358 - ERROR - errorhandler.py:105 - Selector: Unexpected CHAR. [1:3105: <]
+2025-05-21 09:13:00,359 - ERROR - errorhandler.py:105 - Selector: Cannot end with combinator: <br>    
+2025-05-21 09:13:00,361 - ERROR - errorhandler.py:105 - SelectorList: Invalid Selector: <br>    
+2025-05-21 09:13:00,361 - ERROR - errorhandler.py:105 - CSSStyleRule: No style declaration or "}" found: '<br>    '
+2025-05-21 09:16:46,626 - ERROR - manejador_correo.py:160 - Error al inlinizar CSS con Pynliner: Pynliner.__init__() got an unexpected keyword argument 'logger_instance'
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\HORTISAFE\manejador_correo.py", line 157, in crear_cuerpo_html_correo
+    inliner = Pynliner(logger_instance=logger) # Puedes pasar tu instancia de logger si quieres que Pynliner loguee
+TypeError: Pynliner.__init__() got an unexpected keyword argument 'logger_instance'
+2025-05-21 09:16:53,751 - ERROR - errorhandler.py:105 - Selector: Unexpected CHAR. [1:1: <]
+2025-05-21 09:16:53,753 - ERROR - errorhandler.py:105 - SelectorList: Invalid Selector: <br>            body 
+2025-05-21 09:16:53,754 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto "<br>                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';". [1:23: <]
+2025-05-21 09:16:53,754 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>                line-height: 1.6;'. [1:198: <]
+2025-05-21 09:16:53,755 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>                color: #333333;'. [1:235: <]
+2025-05-21 09:16:53,756 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>                background-color: #f4f5f7;'. [1:270: <]
+2025-05-21 09:16:53,756 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>                margin: 0;'. [1:316: <]
+2025-05-21 09:16:53,757 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>                padding: 20px;'. [1:346: <]
+2025-05-21 09:16:53,757 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>                -webkit-font-smoothing: antialiased;'. [1:380: <]
+2025-05-21 09:16:53,758 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>                -moz-osx-font-smoothing: grayscale;'. [1:436: <]
+2025-05-21 09:16:53,759 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>            '. [1:491: <]
+2025-05-21 09:16:53,760 - ERROR - errorhandler.py:105 - Selector: Unexpected CHAR. [1:508: <]
+2025-05-21 09:16:53,762 - ERROR - errorhandler.py:105 - SelectorList: Invalid Selector: <br>            .email-container 
+2025-05-21 09:16:53,762 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>                max-width: 680px;'. [1:542: <]
+2025-05-21 09:16:53,763 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>                margin: 0 auto;'. [1:579: <]
+2025-05-21 09:16:53,763 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>                background-color: #ffffff;'. [1:614: <]
+2025-05-21 09:16:53,766 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>                padding: 35px;'. [1:660: <]
+2025-05-21 09:16:53,767 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>                border-radius: 12px;'. [1:694: <]
+2025-05-21 09:16:53,768 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>                box-shadow: 0 6px 25px rgba(0,0,0,0.08);'. [1:734: <]
+2025-05-21 09:16:53,768 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>                border: 1px solid #dee2e6;'. [1:794: <]
+2025-05-21 09:16:53,769 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>            '. [1:840: <]
+2025-05-21 09:16:53,770 - ERROR - errorhandler.py:105 - Selector: Unexpected CHAR. [1:857: <]
+2025-05-21 09:16:53,771 - ERROR - errorhandler.py:105 - SelectorList: Invalid Selector: <br>            .email-header 
+2025-05-21 09:16:53,772 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>                background-color: #004a99;'. [1:888: <]
+2025-05-21 09:16:53,773 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>                color: #ffffff;'. [1:957: <]
+2025-05-21 09:16:53,774 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>                padding: 25px;'. [1:992: <]
+2025-05-21 09:16:53,775 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>                border-radius: 8px 8px 0 0;'. [1:1026: <]
+2025-05-21 09:16:53,775 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>                text-align: center;'. [1:1073: <]
+2025-05-21 09:16:53,776 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>            '. [1:1112: <]
+2025-05-21 09:16:53,779 - ERROR - errorhandler.py:105 - Selector: Unexpected CHAR. [1:1129: <]
+2025-05-21 09:16:53,781 - ERROR - errorhandler.py:105 - SelectorList: Invalid Selector: <br>            .email-header h2 
+2025-05-21 09:16:53,782 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>                margin: 0;'. [1:1163: <]
+2025-05-21 09:16:53,783 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>                font-size: 26px;'. [1:1193: <]
+2025-05-21 09:16:53,784 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>                font-weight: 600;'. [1:1229: <]
+2025-05-21 09:16:53,784 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>            '. [1:1266: <]
+2025-05-21 09:16:53,785 - ERROR - errorhandler.py:105 - Selector: Unexpected CHAR. [1:1283: <]
+2025-05-21 09:16:53,786 - ERROR - errorhandler.py:105 - SelectorList: Invalid Selector: <br>            .email-content 
+2025-05-21 09:16:53,787 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>                padding: 20px 0;'. [1:1315: <]
+2025-05-21 09:16:53,787 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>            '. [1:1351: <]
+2025-05-21 09:16:53,788 - ERROR - errorhandler.py:105 - Selector: Unexpected CHAR. [1:1368: <]
+2025-05-21 09:16:53,788 - ERROR - errorhandler.py:105 - SelectorList: Invalid Selector: <br>            .email-content h3 
+2025-05-21 09:16:53,789 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>                font-size: 18px;'. [1:1403: <]
+2025-05-21 09:16:53,789 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>                color: #004a99;'. [1:1439: <]
+2025-05-21 09:16:53,789 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>                margin-top: 30px;'. [1:1474: <]
+2025-05-21 09:16:53,790 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>                margin-bottom: 15px;'. [1:1511: <]
+2025-05-21 09:16:53,790 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>                border-bottom: 2px solid #e9ecef;'. [1:1551: <]
+2025-05-21 09:16:53,791 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>                padding-bottom: 8px;'. [1:1604: <]
+2025-05-21 09:16:53,792 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>                font-weight: 600;'. [1:1644: <]
+2025-05-21 09:16:53,792 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>            '. [1:1681: <]
+2025-05-21 09:16:53,793 - ERROR - errorhandler.py:105 - Selector: Unexpected CHAR. [1:1698: <]
+2025-05-21 09:16:53,794 - ERROR - errorhandler.py:105 - SelectorList: Invalid Selector: <br>            .email-content p 
+2025-05-21 09:16:53,795 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>                margin-bottom: 15px;'. [1:1732: <]
+2025-05-21 09:16:53,796 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>                font-size: 15px;'. [1:1772: <]
+2025-05-21 09:16:53,797 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>                color: #555555;'. [1:1808: <]
+2025-05-21 09:16:53,797 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>            '. [1:1843: <]
+2025-05-21 09:16:53,798 - ERROR - errorhandler.py:105 - Selector: Unexpected CHAR. [1:1860: <]
+2025-05-21 09:16:53,799 - ERROR - errorhandler.py:105 - SelectorList: Invalid Selector: <br>            .details-list 
+2025-05-21 09:16:53,800 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>                list-style-type: none;'. [1:1891: <]
+2025-05-21 09:16:53,801 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>                padding-left: 0;'. [1:1933: <]
+2025-05-21 09:16:53,802 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>                font-size: 15px;'. [1:1969: <]
+2025-05-21 09:16:53,803 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>                margin-bottom: 20px;'. [1:2005: <]
+2025-05-21 09:16:53,804 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>            '. [1:2045: <]
+2025-05-21 09:16:53,806 - ERROR - errorhandler.py:105 - Selector: Unexpected CHAR. [1:2062: <]
+2025-05-21 09:16:53,806 - ERROR - errorhandler.py:105 - SelectorList: Invalid Selector: <br>            .details-list li 
+2025-05-21 09:16:53,807 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>                margin-bottom: 10px;'. [1:2096: <]
+2025-05-21 09:16:53,808 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>                padding: 8px 12px;'. [1:2136: <]
+2025-05-21 09:16:53,809 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>                background-color: #f8f9fa;'. [1:2174: <]
+2025-05-21 09:16:53,809 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>                border-left: 3px solid #004a99;'. [1:2220: <]
+2025-05-21 09:16:53,810 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>                border-radius: 4px;'. [1:2271: <]
+2025-05-21 09:16:53,811 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>            '. [1:2310: <]
+2025-05-21 09:16:53,814 - ERROR - errorhandler.py:105 - Selector: Unexpected CHAR. [1:2327: <]
+2025-05-21 09:16:53,816 - ERROR - errorhandler.py:105 - SelectorList: Invalid Selector: <br>            .details-list li strong 
+2025-05-21 09:16:53,816 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>                color: #333333;'. [1:2368: <]
+2025-05-21 09:16:53,818 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>                font-weight: 600;'. [1:2403: <]
+2025-05-21 09:16:53,818 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>                margin-right: 8px;'. [1:2440: <]
+2025-05-21 09:16:53,819 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>            '. [1:2478: <]
+2025-05-21 09:16:53,820 - ERROR - errorhandler.py:105 - Selector: Unexpected CHAR. [1:2495: <]
+2025-05-21 09:16:53,821 - ERROR - errorhandler.py:105 - SelectorList: Invalid Selector: <br>            .email-footer 
+2025-05-21 09:16:53,821 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>                margin-top: 30px;'. [1:2526: <]
+2025-05-21 09:16:53,822 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>                padding-top: 20px;'. [1:2563: <]
+2025-05-21 09:16:53,822 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>                font-size: 13px;'. [1:2601: <]
+2025-05-21 09:16:53,823 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>                color: #777777;'. [1:2637: <]
+2025-05-21 09:16:53,824 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>                text-align: center;'. [1:2672: <]
+2025-05-21 09:16:53,825 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>                border-top: 1px solid #e9ecef;'. [1:2711: <]
+2025-05-21 09:16:53,826 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>            '. [1:2761: <]
+2025-05-21 09:16:53,827 - ERROR - errorhandler.py:105 - Selector: Unexpected CHAR. [1:2778: <]
+2025-05-21 09:16:53,828 - ERROR - errorhandler.py:105 - SelectorList: Invalid Selector: <br>            .email-footer p 
+2025-05-21 09:16:53,831 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>                margin: 5px 0;'. [1:2811: <]
+2025-05-21 09:16:53,832 - ERROR - errorhandler.py:105 - CSSStyleDeclaration: Unexpected token, ignoring upto '<br>            '. [1:2845: <]
+2025-05-21 09:16:53,833 - ERROR - errorhandler.py:105 - CSSStyleRule: No start { of style declaration found: '<br>        ' [1:2874: ]
+2025-05-21 09:16:53,834 - ERROR - errorhandler.py:105 - Selector: Unexpected CHAR. [1:2862: <]
+2025-05-21 09:16:53,835 - ERROR - errorhandler.py:105 - Selector: Cannot end with combinator: <br>        
+2025-05-21 09:16:53,835 - ERROR - errorhandler.py:105 - SelectorList: Invalid Selector: <br>        
+2025-05-21 09:16:53,836 - ERROR - errorhandler.py:105 - CSSStyleRule: No style declaration or "}" found: '<br>        '

@@ -8,7 +8,7 @@ from consultas import QUERY_RESULTADOS, QUERY_ENCABEZADOS
 from Pendientes import Pendientes
 from generador_excel import crear_excel_trujillo, crear_excel_olmos
 #from manejador_correo import enviar_correo_con_adjunto, crear_cuerpo_html_correo
-from manejador_correo import enviar_correo_con_adjunto_yagmail, crear_cuerpo_html_correo # Cambiado aquí
+from manejador_correo import enviar_correo_con_adjunto, crear_cuerpo_html_correo
 
 
 from configuracion_correo import (
@@ -158,7 +158,7 @@ if __name__ == "__main__":
 
 
     # Flag para decidir qué Excel generar (1 para Trujillo, otro valor para Olmos)
-    tipo_informe_flag = 1  # 1: Trujillo, Otro: Olmos (ej. 2)
+    tipo_informe_flag = 2  # 1: Trujillo, Otro: Olmos (ej. 2)
 
     manejador_mylims = ManejadorConexionSQL("myLIMS_Novo_conn")
     conexion_activa = manejador_mylims.conectar()
@@ -182,6 +182,7 @@ if __name__ == "__main__":
 
                 ruta_excel_adjuntar = None
                 nombre_excel_base = ""
+                cadena_Unidad=""
 
                 if tipo_informe_flag == 1:
                     # Directorio donde se guardarán los excels (ej. subcarpeta 'informes_excel')
@@ -195,6 +196,7 @@ if __name__ == "__main__":
                         datos_un_pendiente.get("resultados", []),
                         ruta_completa_excel_t
                     )
+                    cadena_Unidad="Trujillo"
                 else:  # Asumimos Olmos
                     directorio_salida_excel = "informes_generados"
                     nombre_excel_base = f"Olmos_Muestra_{datos_un_pendiente['cdamostra']}.xlsx"
@@ -206,6 +208,7 @@ if __name__ == "__main__":
                         datos_un_pendiente.get("resultados", []),
                         ruta_completa_excel_o
                     )
+                    cadena_Unidad="Olmos"
 
                 if ruta_excel_adjuntar:
                     logging.info(
@@ -213,7 +216,7 @@ if __name__ == "__main__":
 
                     # Preparar y enviar correo
                     asunto_correo = ASUNTO_PLANTILLA.format(
-                        cdamostra=datos_un_pendiente['cdamostra'])
+                        cdamostra=datos_un_pendiente['encabezado']['numero_base'])+' - '+cadena_Unidad
 
                     cuerpo_html_email = crear_cuerpo_html_correo(
                         datos_un_pendiente['cdamostra'],
@@ -222,7 +225,7 @@ if __name__ == "__main__":
                         datos_un_pendiente.get("resultados", [])
                     )
 
-                    envio_exitoso = enviar_correo_con_adjunto_yagmail(
+                    envio_exitoso = enviar_correo_con_adjunto(
                         destinatarios_to= DESTINATARIO_TO_POR_DEFECTO,
                         asunto=asunto_correo,
                         cuerpo_html=cuerpo_html_email,
