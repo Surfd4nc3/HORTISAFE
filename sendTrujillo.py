@@ -7,7 +7,10 @@ from conexion import ManejadorConexionSQL
 from consultas import QUERY_RESULTADOS, QUERY_ENCABEZADOS
 from Pendientes import Pendientes
 from generador_excel import crear_excel_trujillo, crear_excel_olmos
-from manejador_correo import enviar_correo_con_adjunto, crear_cuerpo_html_correo
+#from manejador_correo import enviar_correo_con_adjunto, crear_cuerpo_html_correo
+from manejador_correo import enviar_correo_con_adjunto_yagmail, crear_cuerpo_html_correo # Cambiado aquí
+
+
 from configuracion_correo import (
     LOGS_DIR, LOG_EXITOS_FILE, LOG_ERRORES_FILE, LOG_FORMAT,
     DESTINATARIO_TO_POR_DEFECTO, DESTINATARIO_CC_POR_DEFECTO, DESTINATARIO_BCC_POR_DEFECTO,
@@ -152,9 +155,7 @@ if __name__ == "__main__":
 
     # --- Parámetros para el correo (puedes obtenerlos de otro lado si es necesario) ---
     # Estos sobrescribirán los valores por defecto de configuracion_correo.py si se proporcionan
-    correos_para = "usuario.final@cliente.com;otro.usuario@cliente.com"  # Ejemplo
-    correos_cc = "supervisor@ceimic.com"
-    correos_bcc = "auditoria.interna@ceimic.com"
+
 
     # Flag para decidir qué Excel generar (1 para Trujillo, otro valor para Olmos)
     tipo_informe_flag = 1  # 1: Trujillo, Otro: Olmos (ej. 2)
@@ -221,13 +222,13 @@ if __name__ == "__main__":
                         datos_un_pendiente.get("resultados", [])
                     )
 
-                    envio_exitoso = enviar_correo_con_adjunto(
-                        destinatarios_to=correos_para if correos_para else DESTINATARIO_TO_POR_DEFECTO,
+                    envio_exitoso = enviar_correo_con_adjunto_yagmail(
+                        destinatarios_to= DESTINATARIO_TO_POR_DEFECTO,
                         asunto=asunto_correo,
                         cuerpo_html=cuerpo_html_email,
                         ruta_archivo_adjunto=ruta_excel_adjuntar,
-                        destinatarios_cc=correos_cc if correos_cc else DESTINATARIO_CC_POR_DEFECTO,
-                        destinatarios_bcc=correos_bcc if correos_bcc else DESTINATARIO_BCC_POR_DEFECTO
+                        destinatarios_cc= DESTINATARIO_CC_POR_DEFECTO,
+                        destinatarios_bcc=DESTINATARIO_BCC_POR_DEFECTO
                     )
                     if envio_exitoso:
                         logging.info(

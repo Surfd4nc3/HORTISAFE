@@ -129,3 +129,48 @@ Traceback (most recent call last):
     raise SMTPAuthenticationError(code, resp)
 smtplib.SMTPAuthenticationError: (535, b'5.7.139 Authentication unsuccessful, the user credentials were incorrect. [CP5P284CA0266.BRAP284.PROD.OUTLOOK.COM 2025-05-21T01:59:58.683Z 08DD97724B700F22]')
 2025-05-20 21:00:02,949 - ERROR - sendTrujillo.py:236 - Fallo al enviar correo para CDAMOSTRA 3231808 con adjunto 'Trujillo_Muestra_3231808.xlsx'.
+2025-05-20 21:22:10,312 - ERROR - manejador_correo.py:148 - Error de AUTENTICACIÓN SMTP (desde yagmail/smtplib): (535, b'5.7.139 Authentication unsuccessful, the user credentials were incorrect. [CP5P284CA0142.BRAP284.PROD.OUTLOOK.COM 2025-05-21T02:22:11.801Z 08DD979E55658BD5]')
+2025-05-20 21:22:11,097 - ERROR - manejador_correo.py:149 - CAUSA MÁS PROBABLE: Credenciales incorrectas o la cuenta requiere una 'Contraseña de Aplicación' debido a MFA en Office 365.
+2025-05-20 21:22:17,521 - ERROR - sendTrujillo.py:239 - Fallo al enviar correo para CDAMOSTRA 3231808 con adjunto 'Trujillo_Muestra_3231808.xlsx'.
+2025-05-21 08:22:03,506 - ERROR - errorhandler.py:105 - Selector: Unexpected CHAR. [1:1: <]
+2025-05-21 08:22:03,511 - ERROR - errorhandler.py:105 - SelectorList: Invalid Selector: <br>            body 
+2025-05-21 08:22:03,611 - ERROR - errorhandler.py:105 - Selector: Unexpected CHAR. [1:75: <]
+2025-05-21 08:22:03,613 - ERROR - errorhandler.py:105 - SelectorList: Invalid Selector: <br>            .container 
+2025-05-21 08:22:04,178 - ERROR - errorhandler.py:105 - Selector: Unexpected CHAR. [1:178: <]
+2025-05-21 08:22:04,178 - ERROR - errorhandler.py:105 - SelectorList: Invalid Selector: <br>            .header 
+2025-05-21 08:22:04,260 - ERROR - errorhandler.py:105 - Selector: Unexpected CHAR. [1:267: <]
+2025-05-21 08:22:04,261 - ERROR - errorhandler.py:105 - SelectorList: Invalid Selector: <br>            .content p 
+2025-05-21 08:22:04,268 - ERROR - errorhandler.py:105 - Selector: Unexpected CHAR. [1:318: <]
+2025-05-21 08:22:04,269 - ERROR - errorhandler.py:105 - SelectorList: Invalid Selector: <br>            .footer 
+2025-05-21 08:22:04,354 - ERROR - errorhandler.py:105 - Selector: Unexpected CHAR. [1:394: <]
+2025-05-21 08:22:04,355 - ERROR - errorhandler.py:105 - SelectorList: Invalid Selector: <br>            table 
+2025-05-21 08:22:04,364 - ERROR - errorhandler.py:105 - Selector: Unexpected CHAR. [1:476: <]
+2025-05-21 08:22:04,365 - ERROR - errorhandler.py:105 - SelectorList: Invalid Selector: <br>            th
+2025-05-21 08:22:04,370 - ERROR - errorhandler.py:105 - Selector: Unexpected CHAR. [1:558: <]
+2025-05-21 08:22:04,370 - ERROR - errorhandler.py:105 - SelectorList: Invalid Selector: <br>            th 
+2025-05-21 08:22:04,374 - ERROR - errorhandler.py:105 - CSSStyleRule: No start { of style declaration found: '<br>        ' [1:619: ]
+2025-05-21 08:22:04,375 - ERROR - errorhandler.py:105 - Selector: Unexpected CHAR. [1:607: <]
+2025-05-21 08:22:04,376 - ERROR - errorhandler.py:105 - Selector: Cannot end with combinator: <br>        
+2025-05-21 08:22:04,377 - ERROR - errorhandler.py:105 - SelectorList: Invalid Selector: <br>        
+2025-05-21 08:22:04,378 - ERROR - errorhandler.py:105 - CSSStyleRule: No style declaration or "}" found: '<br>        '
+2025-05-21 08:32:19,035 - ERROR - errorhandler.py:105 - Selector: Unexpected CHAR. [1:1: <]
+2025-05-21 08:32:19,038 - ERROR - errorhandler.py:105 - SelectorList: Invalid Selector: <br>            body 
+2025-05-21 08:32:19,116 - ERROR - errorhandler.py:105 - Selector: Unexpected CHAR. [1:75: <]
+2025-05-21 08:32:19,118 - ERROR - errorhandler.py:105 - SelectorList: Invalid Selector: <br>            .container 
+2025-05-21 08:32:19,637 - ERROR - errorhandler.py:105 - Selector: Unexpected CHAR. [1:178: <]
+2025-05-21 08:32:19,638 - ERROR - errorhandler.py:105 - SelectorList: Invalid Selector: <br>            .header 
+2025-05-21 08:32:19,733 - ERROR - errorhandler.py:105 - Selector: Unexpected CHAR. [1:267: <]
+2025-05-21 08:32:19,734 - ERROR - errorhandler.py:105 - SelectorList: Invalid Selector: <br>            .content p 
+2025-05-21 08:32:19,741 - ERROR - errorhandler.py:105 - Selector: Unexpected CHAR. [1:318: <]
+2025-05-21 08:32:19,742 - ERROR - errorhandler.py:105 - SelectorList: Invalid Selector: <br>            .footer 
+2025-05-21 08:32:19,813 - ERROR - errorhandler.py:105 - Selector: Unexpected CHAR. [1:394: <]
+2025-05-21 08:32:19,814 - ERROR - errorhandler.py:105 - SelectorList: Invalid Selector: <br>            table 
+2025-05-21 08:32:19,823 - ERROR - errorhandler.py:105 - Selector: Unexpected CHAR. [1:476: <]
+2025-05-21 08:32:19,824 - ERROR - errorhandler.py:105 - SelectorList: Invalid Selector: <br>            th
+2025-05-21 08:32:19,828 - ERROR - errorhandler.py:105 - Selector: Unexpected CHAR. [1:558: <]
+2025-05-21 08:32:19,829 - ERROR - errorhandler.py:105 - SelectorList: Invalid Selector: <br>            th 
+2025-05-21 08:32:19,832 - ERROR - errorhandler.py:105 - CSSStyleRule: No start { of style declaration found: '<br>        ' [1:619: ]
+2025-05-21 08:32:19,834 - ERROR - errorhandler.py:105 - Selector: Unexpected CHAR. [1:607: <]
+2025-05-21 08:32:19,835 - ERROR - errorhandler.py:105 - Selector: Cannot end with combinator: <br>        
+2025-05-21 08:32:19,836 - ERROR - errorhandler.py:105 - SelectorList: Invalid Selector: <br>        
+2025-05-21 08:32:19,836 - ERROR - errorhandler.py:105 - CSSStyleRule: No style declaration or "}" found: '<br>        '
