@@ -131,7 +131,7 @@ QUERY_RESULTADOS = """SELECT DISTINCT
                     AND A.FLATIVO = 'S' AND a.CDCLASSEAMOSTRA = 1
                     AND vsa.flimprime = 'S' AND VSM.CDTIPOVSMETODO = 1 AND vsa.cdvs NOT IN (1701)
                     AND dbo.clink_met_hidrobiologia(m.idauxmetodo) = 0 
-                    AND VSA.VLVS <> 'ND' -- Nota: Esta condición estaba comentada como específica para un cdamostra. Verifica si debe aplicar a todos.
+                    AND VSA.VLVS <> 'ND' 
                 ORDER BY 
                     GVS.CDGRPVS, VSA.ORDEM, VSG.ORDEM; -- Añadido un ORDER BY de ejemplo, ajusta según necesites
                 """
@@ -238,7 +238,7 @@ SELECT
             FROM VEAMOSTRA VEA_INNER
             INNER JOIN VEMETODO VEM_INNER ON VEM_INNER.CDVEMETODO = VEA_INNER.CDVEMETODO
             WHERE VEA_INNER.CDAMOSTRA = A.CDAMOSTRA AND VEM_INNER.CDVE = (CASE WHEN A.CDUNIDADE IN (123) THEN 4 ELSE 234 END)
-            -- GROUP BY VEA_INNER.CDAMOSTRA, VEM_INNER.CDVE -- Group by no es necesario en subconsulta MAX escalar
+          
         )
     ),103) AS dataini,
     CASE WHEN dbo.infos(A.CDAMOSTRA,677) IS NULL THEN 'N/A' ELSE dbo.infos(A.CDAMOSTRA,677) END  as desc_amostra,
@@ -304,7 +304,7 @@ FROM
     LEFT JOIN LOGRADOURO LN ON LN.CDLOGRADOURO = EN.CDLOGRADOURO
     LEFT JOIN CIDADE CD ON CD.CDCIDADE = EN.CDCIDADE
     LEFT JOIN ESTADO ED ON ED.CDESTADO = EN.CDESTADO
-    LEFT JOIN onlinedata.dbo.ESTADO ESM ON ESM.CDESTADO = EN.CDESTADO -- Asumiendo que onlinedata es un linked server
+    LEFT JOIN onlinedata.dbo.ESTADO ESM ON ESM.CDESTADO = EN.CDESTADO
     LEFT JOIN ENDERECOSEMP ENC ON ENC.CDEMPRESA = ES.CDEMPRESA AND ENC.CDTIPOENDERECO = 2
     LEFT JOIN ENDERECO EC ON EC.CDENDERECO = ENC.CDENDERECO
     LEFT JOIN LOGRADOURO LC ON LC.CDLOGRADOURO = EC.CDLOGRADOURO 

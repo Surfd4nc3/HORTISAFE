@@ -379,3 +379,9 @@ TypeError: Pynliner.__init__() got an unexpected keyword argument 'logger_instan
 2025-05-21 09:16:53,835 - ERROR - errorhandler.py:105 - Selector: Cannot end with combinator: <br>        
 2025-05-21 09:16:53,835 - ERROR - errorhandler.py:105 - SelectorList: Invalid Selector: <br>        
 2025-05-21 09:16:53,836 - ERROR - errorhandler.py:105 - CSSStyleRule: No style declaration or "}" found: '<br>        '
+2025-05-21 17:42:17,942 - ERROR - Index.py:129 - Error al obtener resultados para 3231808.
+2025-05-21 17:42:17,945 - ERROR - Index.py:144 - Error al obtener encabezado para 3231808.
+2025-05-21 17:42:17,946 - ERROR - Index.py:215 - No se pudieron obtener datos suficientes para CDAMOSTRA 3231808. Se omite este pendiente.
+2025-05-21 17:43:33,968 - ERROR - Index.py:129 - Error al obtener resultados para 3231808.
+2025-05-21 17:46:15,863 - ERROR - Index.py:129 - Error al obtener resultados para 3231808.
+2025-05-21 17:51:06,169 - ERROR - Index.py:129 - Error al obtener resultados para 3231808.

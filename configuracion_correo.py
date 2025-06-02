@@ -12,7 +12,15 @@ REMITENTE_EMAIL = SMTP_USER
 
 DESTINATARIO_TO_POR_DEFECTO = "Eder.ortega@ceimic.com;joel.zarate@ceimic.com"
 DESTINATARIO_CC_POR_DEFECTO = "herrick.davis@ceimic.com"
-DESTINATARIO_BCC_POR_DEFECTO = "herrick.davis@ceimic.com;rita.noriega@ceimic.com"
+DESTINATARIO_BCC_POR_DEFECTO = "herrick.davis@ceimic.com;rita.noriega@ceimic.com;Eder.ortega@ceimic.com;joel.zarate@ceimic.com"
+
+DESTINATARIO_TO_TRUJILLO="rcevallos@hortifrut.com;rimunoz@hortifrut.com"
+DESTINATARIO_CC_TRUJILLO="herrick.davis@ceimic.com"
+DESTINATARIO_BCC_TRUJILLO="herrick.davis@ceimic.com;rita.noriega@ceimic.com;Eder.ortega@ceimic.com;joel.zarate@ceimic.com"
+
+DESTINATARIO_TO_OLMOS="nayda.berruc@hfeberries.com;rimunoz@hortifrut.com"
+DESTINATARIO_CC_OLMOS="herrick.davis@ceimic.com"
+DESTINATARIO_BCC_OLMOS="herrick.davis@ceimic.com;rita.noriega@ceimic.com;Eder.ortega@ceimic.com;joel.zarate@ceimic.com"
 
 ASUNTO_PLANTILLA = "Resultado de ensayo {cdamostra}"
 

@@ -710,3 +710,147 @@ TypeError: Pynliner.__init__() got an unexpected keyword argument 'logger_instan
 2025-05-21 14:42:29,992 - INFO - sendTrujillo.py:153 - ********** INICIO DEL PROCESO DE ENVÍO DE INFORMES **********
 2025-05-21 14:42:47,928 - INFO - sendTrujillo.py:297 - No se encontraron CDAMOSTRAS pendientes según los criterios definidos.
 2025-05-21 14:42:47,930 - INFO - sendTrujillo.py:305 - ********** FIN DEL PROCESO DE ENVÍO DE INFORMES **********
+2025-05-21 17:41:33,963 - INFO - Index.py:105 - Sistema de Logging configurado.
+2025-05-21 17:41:33,967 - INFO - Index.py:160 - ********** INICIO DEL PROCESO DE ENVÍO DE INFORMES **********
+2025-05-21 17:41:47,113 - INFO - Index.py:315 - No se encontraron CDAMOSTRAS pendientes según los criterios definidos.
+2025-05-21 17:41:47,115 - INFO - Index.py:323 - ********** FIN DEL PROCESO DE ENVÍO DE INFORMES **********
+2025-05-21 17:42:08,554 - INFO - Index.py:105 - Sistema de Logging configurado.
+2025-05-21 17:42:08,555 - INFO - Index.py:160 - ********** INICIO DEL PROCESO DE ENVÍO DE INFORMES **********
+2025-05-21 17:42:17,939 - INFO - Index.py:207 - Se encontraron 1 CDAMOSTRAS pendientes para procesar.
+2025-05-21 17:42:17,940 - INFO - Index.py:113 - --- Iniciando procesamiento para CDAMOSTRA: 3231808 ---
+2025-05-21 17:42:17,942 - ERROR - Index.py:129 - Error al obtener resultados para 3231808.
+2025-05-21 17:42:17,945 - ERROR - Index.py:144 - Error al obtener encabezado para 3231808.
+2025-05-21 17:42:17,946 - ERROR - Index.py:215 - No se pudieron obtener datos suficientes para CDAMOSTRA 3231808. Se omite este pendiente.
+2025-05-21 17:42:17,948 - INFO - Index.py:312 - --- Proceso completado para todos los pendientes ---
+2025-05-21 17:42:17,949 - INFO - Index.py:323 - ********** FIN DEL PROCESO DE ENVÍO DE INFORMES **********
+2025-05-21 17:43:24,654 - INFO - Index.py:105 - Sistema de Logging configurado.
+2025-05-21 17:43:24,656 - INFO - Index.py:160 - ********** INICIO DEL PROCESO DE ENVÍO DE INFORMES **********
+2025-05-21 17:43:33,966 - INFO - Index.py:207 - Se encontraron 1 CDAMOSTRAS pendientes para procesar.
+2025-05-21 17:43:33,967 - INFO - Index.py:113 - --- Iniciando procesamiento para CDAMOSTRA: 3231808 ---
+2025-05-21 17:43:33,968 - ERROR - Index.py:129 - Error al obtener resultados para 3231808.
+2025-05-21 17:46:05,992 - INFO - Index.py:105 - Sistema de Logging configurado.
+2025-05-21 17:46:05,994 - INFO - Index.py:160 - ********** INICIO DEL PROCESO DE ENVÍO DE INFORMES **********
+2025-05-21 17:46:15,860 - INFO - Index.py:207 - Se encontraron 1 CDAMOSTRAS pendientes para procesar.
+2025-05-21 17:46:15,861 - INFO - Index.py:113 - --- Iniciando procesamiento para CDAMOSTRA: 3231808 ---
+2025-05-21 17:46:15,863 - ERROR - Index.py:129 - Error al obtener resultados para 3231808.
+2025-05-21 17:50:57,232 - INFO - Index.py:105 - Sistema de Logging configurado.
+2025-05-21 17:50:57,234 - INFO - Index.py:165 - ********** INICIO DEL PROCESO DE ENVÍO DE INFORMES **********
+2025-05-21 17:51:06,166 - INFO - Index.py:212 - Se encontraron 1 CDAMOSTRAS pendientes para procesar.
+2025-05-21 17:51:06,167 - INFO - Index.py:113 - --- Iniciando procesamiento para CDAMOSTRA: 3231808 ---
+2025-05-21 17:51:06,169 - ERROR - Index.py:129 - Error al obtener resultados para 3231808.
+2025-05-21 17:54:25,742 - INFO - Index.py:100 - Sistema de Logging configurado.
+2025-05-21 17:54:25,744 - INFO - Index.py:165 - ********** INICIO DEL PROCESO DE ENVÍO DE INFORMES **********
+2025-05-21 17:54:35,166 - INFO - Index.py:202 - Se encontraron 1 CDAMOSTRAS pendientes para procesar.
+2025-05-21 17:54:35,168 - INFO - Index.py:108 - --- Iniciando procesamiento para CDAMOSTRA: 3231808 ---
+2025-05-21 17:54:58,403 - INFO - Index.py:129 - Resultados obtenidos para 3231808: 2 filas.
+2025-05-21 17:55:07,937 - INFO - Index.py:140 - Encabezado obtenido para 3231808.
+2025-05-21 17:55:25,166 - INFO - Index.py:245 - Excel 'informes_generados\Olmos_Muestra_3231808.xlsx' generado exitosamente para CDAMOSTRA 3231808.
+2025-05-21 17:56:34,819 - INFO - Index.py:100 - Sistema de Logging configurado.
+2025-05-21 17:56:34,821 - INFO - Index.py:165 - ********** INICIO DEL PROCESO DE ENVÍO DE INFORMES **********
+2025-05-21 17:56:44,212 - INFO - Index.py:202 - Se encontraron 1 CDAMOSTRAS pendientes para procesar.
+2025-05-21 17:56:44,213 - INFO - Index.py:108 - --- Iniciando procesamiento para CDAMOSTRA: 3231808 ---
+2025-05-21 17:56:45,136 - INFO - Index.py:129 - Resultados obtenidos para 3231808: 2 filas.
+2025-05-21 17:56:45,689 - INFO - Index.py:140 - Encabezado obtenido para 3231808.
+2025-05-21 17:56:46,365 - INFO - generador_excel.py:113 -  Excel para Trujillo 'informes_generados\Trujillo_Muestra_3231808.xlsx' creado exitosamente para muestra PACK 2 SUPER EXPRESS.
+2025-05-21 17:56:46,366 - INFO - Index.py:245 - Excel 'informes_generados\Trujillo_Muestra_3231808.xlsx' generado exitosamente para CDAMOSTRA 3231808.
+2025-05-21 18:03:01,620 - INFO - Index.py:100 - Sistema de Logging configurado.
+2025-05-21 18:03:01,622 - INFO - Index.py:165 - ********** INICIO DEL PROCESO DE ENVÍO DE INFORMES **********
+2025-05-21 18:03:10,672 - INFO - Index.py:202 - Se encontraron 1 CDAMOSTRAS pendientes para procesar.
+2025-05-21 18:03:10,673 - INFO - Index.py:108 - --- Iniciando procesamiento para CDAMOSTRA: 3231808 ---
+2025-05-21 18:03:11,485 - INFO - Index.py:129 - Resultados obtenidos para 3231808: 2 filas.
+2025-05-21 18:03:11,997 - INFO - Index.py:140 - Encabezado obtenido para 3231808.
+2025-05-21 18:03:12,603 - INFO - generador_excel.py:113 -  Excel para Trujillo 'informes_generados\Trujillo_Muestra_3231808.xlsx' creado exitosamente para muestra PACK 2 SUPER EXPRESS.
+2025-05-21 18:03:12,604 - INFO - Index.py:245 - Excel 'informes_generados\Trujillo_Muestra_3231808.xlsx' generado exitosamente para CDAMOSTRA 3231808.
+2025-05-21 18:03:27,231 - INFO - manejador_correo.py:255 - Archivo 'Trujillo_Muestra_3231808.xlsx' adjuntado al correo.
+2025-05-21 18:03:40,388 - INFO - manejador_correo.py:270 - Intentando conexión SMTP a smtp.office365.com:587
+2025-05-21 18:03:40,966 - INFO - manejador_correo.py:283 - Intentando login SMTP con usuario noreply.new@ceimic.com
+2025-05-21 18:03:43,287 - INFO - manejador_correo.py:285 - Login SMTP exitoso.
+2025-05-21 18:03:44,824 - INFO - manejador_correo.py:289 - Correo enviado exitosamente con smtplib a: rcevallos@hortifrut.com, rimunoz@hortifrut.com
+2025-05-21 18:03:49,197 - INFO - Index.py:297 - Correo para CDAMOSTRA 3231808 enviado con adjunto 'Trujillo_Muestra_3231808.xlsx'.
+2025-05-21 18:03:49,198 - INFO - Index.py:306 - --- Proceso completado para todos los pendientes ---
+2025-05-21 18:03:49,199 - INFO - Index.py:319 - ********** FIN DEL PROCESO DE ENVÍO DE INFORMES **********
+2025-05-21 18:04:15,823 - INFO - Index.py:100 - Sistema de Logging configurado.
+2025-05-21 18:04:15,824 - INFO - Index.py:165 - ********** INICIO DEL PROCESO DE ENVÍO DE INFORMES **********
+2025-05-21 18:04:24,854 - INFO - Index.py:309 - No se encontraron CDAMOSTRAS pendientes según los criterios definidos.
+2025-05-21 18:04:24,854 - INFO - Index.py:319 - ********** FIN DEL PROCESO DE ENVÍO DE INFORMES **********
+2025-05-21 18:05:02,701 - INFO - Index.py:100 - Sistema de Logging configurado.
+2025-05-21 18:05:02,703 - INFO - Index.py:165 - ********** INICIO DEL PROCESO DE ENVÍO DE INFORMES **********
+2025-05-21 18:05:11,909 - INFO - Index.py:309 - No se encontraron CDAMOSTRAS pendientes según los criterios definidos.
+2025-05-21 18:05:11,910 - INFO - Index.py:319 - ********** FIN DEL PROCESO DE ENVÍO DE INFORMES **********
+2025-05-21 18:05:33,217 - INFO - Index.py:100 - Sistema de Logging configurado.
+2025-05-21 18:05:33,217 - INFO - Index.py:165 - ********** INICIO DEL PROCESO DE ENVÍO DE INFORMES **********
+2025-05-21 18:05:42,115 - INFO - Index.py:202 - Se encontraron 1 CDAMOSTRAS pendientes para procesar.
+2025-05-21 18:05:42,115 - INFO - Index.py:108 - --- Iniciando procesamiento para CDAMOSTRA: 3231808 ---
+2025-05-21 18:05:42,986 - INFO - Index.py:129 - Resultados obtenidos para 3231808: 2 filas.
+2025-05-21 18:05:43,496 - INFO - Index.py:140 - Encabezado obtenido para 3231808.
+2025-05-21 18:05:44,149 - INFO - Index.py:245 - Excel 'informes_generados\Olmos_Muestra_3231808.xlsx' generado exitosamente para CDAMOSTRA 3231808.
+2025-05-21 18:05:44,213 - INFO - manejador_correo.py:255 - Archivo 'Olmos_Muestra_3231808.xlsx' adjuntado al correo.
+2025-05-21 18:05:44,213 - INFO - manejador_correo.py:270 - Intentando conexión SMTP a smtp.office365.com:587
+2025-05-21 18:05:44,884 - INFO - manejador_correo.py:283 - Intentando login SMTP con usuario noreply.new@ceimic.com
+2025-05-21 18:05:45,613 - INFO - manejador_correo.py:285 - Login SMTP exitoso.
+2025-05-21 18:05:46,766 - INFO - manejador_correo.py:289 - Correo enviado exitosamente con smtplib a: nayda.berruc@hfeberries.com, rimunoz@hortifrut.com
+2025-05-21 18:05:51,029 - INFO - Index.py:297 - Correo para CDAMOSTRA 3231808 enviado con adjunto 'Olmos_Muestra_3231808.xlsx'.
+2025-05-21 18:05:51,029 - INFO - Index.py:306 - --- Proceso completado para todos los pendientes ---
+2025-05-21 18:05:51,029 - INFO - Index.py:319 - ********** FIN DEL PROCESO DE ENVÍO DE INFORMES **********
+2025-05-22 15:14:55,195 - INFO - Index.py:100 - Sistema de Logging configurado.
+2025-05-22 15:14:55,197 - INFO - Index.py:165 - ********** INICIO DEL PROCESO DE ENVÍO DE INFORMES **********
+2025-05-22 15:14:59,830 - INFO - Index.py:309 - No se encontraron CDAMOSTRAS pendientes según los criterios definidos.
+2025-05-22 15:14:59,830 - INFO - Index.py:319 - ********** FIN DEL PROCESO DE ENVÍO DE INFORMES **********
+2025-05-22 15:16:13,800 - INFO - Index.py:100 - Sistema de Logging configurado.
+2025-05-22 15:16:13,802 - INFO - Index.py:165 - ********** INICIO DEL PROCESO DE ENVÍO DE INFORMES **********
+2025-05-22 15:16:18,371 - INFO - Index.py:202 - Se encontraron 1 CDAMOSTRAS pendientes para procesar.
+2025-05-22 15:16:18,372 - INFO - Index.py:108 - --- Iniciando procesamiento para CDAMOSTRA: 3231808 ---
+2025-05-22 15:16:19,304 - INFO - Index.py:129 - Resultados obtenidos para 3231808: 2 filas.
+2025-05-22 15:16:19,850 - INFO - Index.py:140 - Encabezado obtenido para 3231808.
+2025-05-22 15:16:21,141 - INFO - Index.py:245 - Excel 'informes_generados\Olmos_Muestra_3231808.xlsx' generado exitosamente para CDAMOSTRA 3231808.
+2025-05-22 15:17:02,052 - INFO - Index.py:100 - Sistema de Logging configurado.
+2025-05-22 15:17:02,053 - INFO - Index.py:165 - ********** INICIO DEL PROCESO DE ENVÍO DE INFORMES **********
+2025-05-22 15:17:06,601 - INFO - Index.py:202 - Se encontraron 1 CDAMOSTRAS pendientes para procesar.
+2025-05-22 15:17:06,601 - INFO - Index.py:108 - --- Iniciando procesamiento para CDAMOSTRA: 3231808 ---
+2025-05-22 15:17:07,420 - INFO - Index.py:129 - Resultados obtenidos para 3231808: 2 filas.
+2025-05-22 15:17:07,880 - INFO - Index.py:140 - Encabezado obtenido para 3231808.
+2025-05-22 15:17:08,527 - INFO - generador_excel.py:113 -  Excel para Trujillo 'informes_generados\Trujillo_Muestra_3231808.xlsx' creado exitosamente para muestra PACK 2 SUPER EXPRESS.
+2025-05-22 15:17:08,528 - INFO - Index.py:245 - Excel 'informes_generados\Trujillo_Muestra_3231808.xlsx' generado exitosamente para CDAMOSTRA 3231808.
+2025-05-26 11:27:25,021 - INFO - Index.py:100 - Sistema de Logging configurado.
+2025-05-26 11:27:25,023 - INFO - Index.py:165 - ********** INICIO DEL PROCESO DE ENVÍO DE INFORMES **********
+2025-05-26 11:27:32,566 - INFO - Index.py:202 - Se encontraron 1 CDAMOSTRAS pendientes para procesar.
+2025-05-26 11:27:32,566 - INFO - Index.py:108 - --- Iniciando procesamiento para CDAMOSTRA: 3231808 ---
+2025-05-26 11:27:33,190 - INFO - Index.py:129 - Resultados obtenidos para 3231808: 2 filas.
+2025-05-26 11:27:34,159 - INFO - Index.py:140 - Encabezado obtenido para 3231808.
+2025-05-26 11:27:38,781 - INFO - generador_excel.py:143 -  Excel para Trujillo 'informes_generados\Trujillo_Muestra_3231808.xlsx' creado exitosamente para muestra PACK 2 SUPER EXPRESS.
+2025-05-26 11:27:43,232 - INFO - Index.py:245 - Excel 'informes_generados\Trujillo_Muestra_3231808.xlsx' generado exitosamente para CDAMOSTRA 3231808.
+2025-05-29 12:14:51,382 - INFO - Index.py:100 - Sistema de Logging configurado.
+2025-05-29 12:14:51,383 - INFO - Index.py:165 - ********** INICIO DEL PROCESO DE ENVÍO DE INFORMES **********
+2025-05-29 12:15:41,741 - INFO - Index.py:202 - Se encontraron 1 CDAMOSTRAS pendientes para procesar.
+2025-05-29 12:15:41,743 - INFO - Index.py:108 - --- Iniciando procesamiento para CDAMOSTRA: 3231808 ---
+2025-05-29 12:15:42,719 - INFO - Index.py:129 - Resultados obtenidos para 3231808: 2 filas.
+2025-05-29 12:15:43,274 - INFO - Index.py:140 - Encabezado obtenido para 3231808.
+2025-05-29 12:15:49,159 - INFO - generador_excel.py:145 -  Excel para Trujillo 'informes_generados\Trujillo_Muestra_3231808.xlsx' creado exitosamente para muestra PACK 2 SUPER EXPRESS.
+2025-05-29 12:15:49,161 - INFO - Index.py:245 - Excel 'informes_generados\Trujillo_Muestra_3231808.xlsx' generado exitosamente para CDAMOSTRA 3231808.
+2025-05-29 12:15:53,954 - INFO - manejador_correo.py:255 - Archivo 'Trujillo_Muestra_3231808.xlsx' adjuntado al correo.
+2025-05-29 12:15:53,955 - INFO - manejador_correo.py:270 - Intentando conexión SMTP a smtp.office365.com:587
+2025-05-29 12:15:56,543 - INFO - manejador_correo.py:283 - Intentando login SMTP con usuario noreply.new@ceimic.com
+2025-05-29 12:15:58,223 - INFO - manejador_correo.py:285 - Login SMTP exitoso.
+2025-05-29 12:15:59,611 - INFO - manejador_correo.py:289 - Correo enviado exitosamente con smtplib a: rcevallos@hortifrut.com, rimunoz@hortifrut.com
+2025-05-29 12:16:07,437 - INFO - Index.py:297 - Correo para CDAMOSTRA 3231808 enviado con adjunto 'Trujillo_Muestra_3231808.xlsx'.
+2025-05-29 12:16:07,438 - INFO - Index.py:306 - --- Proceso completado para todos los pendientes ---
+2025-05-29 12:16:07,438 - INFO - Index.py:319 - ********** FIN DEL PROCESO DE ENVÍO DE INFORMES **********
+2025-05-29 12:16:29,445 - INFO - Index.py:100 - Sistema de Logging configurado.
+2025-05-29 12:16:29,445 - INFO - Index.py:165 - ********** INICIO DEL PROCESO DE ENVÍO DE INFORMES **********
+2025-05-29 12:16:36,437 - INFO - Index.py:309 - No se encontraron CDAMOSTRAS pendientes según los criterios definidos.
+2025-05-29 12:16:36,441 - INFO - Index.py:319 - ********** FIN DEL PROCESO DE ENVÍO DE INFORMES **********
+2025-05-29 12:16:55,568 - INFO - Index.py:100 - Sistema de Logging configurado.
+2025-05-29 12:16:55,568 - INFO - Index.py:165 - ********** INICIO DEL PROCESO DE ENVÍO DE INFORMES **********
+2025-05-29 12:17:00,334 - INFO - Index.py:202 - Se encontraron 1 CDAMOSTRAS pendientes para procesar.
+2025-05-29 12:17:00,335 - INFO - Index.py:108 - --- Iniciando procesamiento para CDAMOSTRA: 3231808 ---
+2025-05-29 12:17:01,164 - INFO - Index.py:129 - Resultados obtenidos para 3231808: 2 filas.
+2025-05-29 12:17:01,819 - INFO - Index.py:140 - Encabezado obtenido para 3231808.
+2025-05-29 12:17:02,483 - INFO - Index.py:245 - Excel 'informes_generados\Olmos_Muestra_3231808.xlsx' generado exitosamente para CDAMOSTRA 3231808.
+2025-05-29 12:17:02,508 - INFO - manejador_correo.py:255 - Archivo 'Olmos_Muestra_3231808.xlsx' adjuntado al correo.
+2025-05-29 12:17:02,508 - INFO - manejador_correo.py:270 - Intentando conexión SMTP a smtp.office365.com:587
+2025-05-29 12:17:05,045 - INFO - manejador_correo.py:283 - Intentando login SMTP con usuario noreply.new@ceimic.com
+2025-05-29 12:17:05,665 - INFO - manejador_correo.py:285 - Login SMTP exitoso.
+2025-05-29 12:17:07,003 - INFO - manejador_correo.py:289 - Correo enviado exitosamente con smtplib a: nayda.berruc@hfeberries.com, rimunoz@hortifrut.com
+2025-05-29 12:17:08,935 - INFO - Index.py:297 - Correo para CDAMOSTRA 3231808 enviado con adjunto 'Olmos_Muestra_3231808.xlsx'.
+2025-05-29 12:17:08,936 - INFO - Index.py:306 - --- Proceso completado para todos los pendientes ---
+2025-05-29 12:17:08,936 - INFO - Index.py:319 - ********** FIN DEL PROCESO DE ENVÍO DE INFORMES **********

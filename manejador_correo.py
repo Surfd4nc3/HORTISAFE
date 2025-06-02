@@ -199,19 +199,23 @@ def enviar_correo_con_adjunto(destinatarios_to, asunto, cuerpo_html, ruta_archiv
         return False
     msg['To'] = ", ".join(lista_to_validos)
 
-    lista_cc_validos = []
-    if destinatarios_cc:
-        if isinstance(destinatarios_cc, str):
-            for email in destinatarios_cc.split(';'):
-                email_limpio = email.strip()
-                if is_valid_email(email_limpio):
-                    lista_cc_validos.append(email_limpio)
-        elif isinstance(destinatarios_cc, list):
-            for email in destinatarios_cc:
-                if is_valid_email(email.strip()):
-                    lista_cc_validos.append(email.strip())
-        if lista_cc_validos:
-            msg['Cc'] = ", ".join(lista_cc_validos)
+    # COMENTAR LAS SIGUIENTES LÍNEAS PARA NO ENVIAR A CC
+    # lista_cc_validos = []
+    # if destinatarios_cc:
+    #     if isinstance(destinatarios_cc, str):
+    #         for email in destinatarios_cc.split(';'):
+    #             email_limpio = email.strip()
+    #             if is_valid_email(email_limpio):
+    #                 lista_cc_validos.append(email_limpio)
+    #     elif isinstance(destinatarios_cc, list):
+    #         for email in destinatarios_cc:
+    #             if is_valid_email(email.strip()):
+    #                 lista_cc_validos.append(email.strip())
+    #     if lista_cc_validos:
+    #         msg['Cc'] = ", ".join(lista_cc_validos)
+
+    lista_cc_validos = [] # Mantener esta línea para que 'todos_los_destinatarios_finales' funcione correctamente.
+
 
     lista_bcc_validos = []
     if destinatarios_bcc:
