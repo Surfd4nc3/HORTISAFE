@@ -176,6 +176,7 @@ def crear_cuerpo_html_correo(cdamostra, datos_encabezado, datos_resultados):
 # Esta es tu función original para enviar con smtplib, la reactivamos.
 def enviar_correo_con_adjunto(destinatarios_to, asunto, cuerpo_html, ruta_archivo_adjunto=None, 
                               destinatarios_cc=None, destinatarios_bcc=None, reply_to_email=None):
+    
     if not SMTP_SERVER or not SMTP_USER or not SMTP_PASSWORD:
         logger.error("Configuración SMTP incompleta (servidor, usuario o contraseña no definidos). No se puede enviar correo.")
         return False

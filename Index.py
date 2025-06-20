@@ -214,7 +214,7 @@ if __name__ == "__main__":
                 ruta_excel_adjuntar = None
                 nombre_excel_base = ""
                 cadena_Unidad = ""
-
+                #tipo_informe_flag se le asigna si es olmos o trujillo
                 if tipo_informe_flag == 1:
                     # Directorio donde se guardarán los excels (ej. subcarpeta 'informes_excel')
                     directorio_salida_excel = "informes_generados"
